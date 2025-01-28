@@ -76,7 +76,7 @@ class CustomInstallCommand(install):
         subprocess.check_call([venv_python, "-m", "pip", "install", "--upgrade", "pip"])
 
         # Read all requirements from category files
-        requirement_categories = ['ai', 'gui', 'data', 'web', 'dev', 'text']
+        requirement_categories = ['ai', 'gui', 'data', 'web', 'others', 'dev', 'text']
         all_requirements = []
         for category in requirement_categories:
             reqs = read_requirements(category)
@@ -100,14 +100,14 @@ class CustomInstallCommand(install):
 
 # Collect all requirements for setup
 all_requirements = []
-requirement_categories = ['ai', 'gui', 'data', 'web', 'dev', 'text']
+requirement_categories = ['ai', 'gui', 'data', 'web', 'others', 'dev', 'text']
 for category in requirement_categories:
     all_requirements.extend(read_requirements(category))
 
 setup(
-    name="DynamicPyside6",
+    name="NodeX",
     author="TobiasRaanaes",
-    description="Dynamic PySide6 Application with AI agent chat",
+    description="NodeX",
     long_description=read_file("README.md"),
     long_description_content_type="text/markdown",
     packages=find_packages(),

@@ -7,8 +7,8 @@ from typing import Dict, Tuple, List
 from PySide6.QtCore import QSize, QSettings
 
 # Application Configuration
-APP_NAME: str = "Dynamic Page Loader"
-APPLICATION_NAME: str = "DynamicPageLoader"
+APP_NAME: str = "NodeX"
+APPLICATION_NAME: str = "NodeX"
 COMPANY_NAME: str = "Rewnozom"
 VERSION: str = "1.0.0"
 DEBUG_MODE: bool = True

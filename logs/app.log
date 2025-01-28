@@ -1,0 +1,294 @@
+2025-01-28 01:41:42,239 - app_logger - DEBUG - Logger setup completed.
+2025-01-28 01:41:42,239 - app_logger - INFO - Starting application...
+2025-01-28 01:41:42,240 - app_logger - INFO - Loaded theme 'dark' from ./Styles/theme\dark\style.json
+2025-01-28 01:41:42,241 - app_logger - INFO - Loaded theme 'light' from ./Styles/theme\light\style.json
+2025-01-28 01:41:42,241 - app_logger - INFO - Themes loaded successfully.
+2025-01-28 01:41:42,255 - app_logger - INFO - Qt message handler installed.
+2025-01-28 01:41:42,256 - app_logger - DEBUG - Window resized to: 2092x1006
+2025-01-28 01:41:42,256 - app_logger - INFO - Initializing PageManager...
+2025-01-28 01:41:42,256 - app_logger - DEBUG - Verifying configuration...
+2025-01-28 01:41:42,256 - app_logger - DEBUG - Configuration verification completed
+2025-01-28 01:41:42,257 - app_logger - INFO - PageManager initialized successfully
+2025-01-28 01:41:42,257 - app_logger - INFO - All components initialized successfully
+2025-01-28 01:41:42,257 - app_logger - INFO - Initializing UI...
+2025-01-28 01:41:42,257 - app_logger - DEBUG - Main layout initialized
+2025-01-28 01:41:42,257 - app_logger - DEBUG - Container layout initialized
+2025-01-28 01:41:42,257 - app_logger - DEBUG - Configuration verified successfully
+2025-01-28 01:41:42,257 - app_logger - DEBUG - Properties initialized with phone_layout=False
+2025-01-28 01:41:42,257 - app_logger - DEBUG - Layout initialized
+2025-01-28 01:41:42,258 - app_logger - DEBUG - Title setup completed
+2025-01-28 01:41:42,258 - app_logger - DEBUG - Spacer added to layout
+2025-01-28 01:41:42,278 - app_logger - DEBUG - Button connections established
+2025-01-28 01:41:42,279 - app_logger - DEBUG - Buttons initialized and connected
+2025-01-28 01:41:42,279 - app_logger - DEBUG - UI setup completed
+2025-01-28 01:41:42,280 - app_logger - INFO - Qt: Unknown property disabled-background-color
+2025-01-28 01:41:42,280 - app_logger - INFO - Qt: Unknown property disabled-text-color
+2025-01-28 01:41:42,280 - app_logger - INFO - Qt: Unknown property box-shadow
+2025-01-28 01:41:42,280 - app_logger - DEBUG - Palette applied successfully.
+2025-01-28 01:41:42,281 - app_logger - INFO - Applied theme: dark
+2025-01-28 01:41:42,281 - app_logger - DEBUG - Applied code block styles to all registered text widgets.
+2025-01-28 01:41:42,281 - app_logger - DEBUG - HeaderSection initialized successfully
+2025-01-28 01:41:42,282 - app_logger - DEBUG - Initialized WhisperPanel with dimensions 400x500
+2025-01-28 01:41:42,373 - app_logger - INFO - Qt: QPropertyAnimation: you're trying to animate a non-existing property opacity of your QObject
+2025-01-28 01:41:42,382 - app_logger - INFO - Qt: Unknown property placeholder-color
+2025-01-28 01:41:42,384 - app_logger - INFO - Qt: Unknown property hover-background-color
+2025-01-28 01:41:42,384 - app_logger - INFO - Qt: Unknown property selected-background-color
+2025-01-28 01:41:42,384 - app_logger - INFO - Qt: Unknown property selected-color
+2025-01-28 01:41:42,450 - app_logger - DEBUG - WhisperPanel initialized successfully with WhisperTranscription
+2025-01-28 01:41:42,451 - app_logger - DEBUG - WhisperPanel pre-initialized at startup
+2025-01-28 01:41:42,451 - app_logger - DEBUG - Initialized TerminalPanel with dimensions 800x600
+2025-01-28 01:41:42,460 - app_logger - DEBUG - TerminalPanel initialized successfully with TerminalWidget
+2025-01-28 01:41:42,460 - app_logger - DEBUG - TerminalPanel pre-initialized at startup
+2025-01-28 01:41:42,472 - app_logger - DEBUG - Header section added
+2025-01-28 01:41:42,478 - app_logger - DEBUG - Content area setup complete
+2025-01-28 01:41:42,479 - app_logger - DEBUG - Footer section added
+2025-01-28 01:41:42,488 - app_logger - DEBUG - Theme 'dark' is already applied. Skipping re-application.
+2025-01-28 01:41:42,489 - app_logger - DEBUG - Theme 'dark' is already applied. Skipping re-application.
+2025-01-28 01:41:44,306 - app_logger - INFO - Icon theme set to 'dark'. (Implement as needed)
+2025-01-28 01:41:44,306 - app_logger - DEBUG - Main window updated with the new theme.
+2025-01-28 01:41:44,306 - app_logger - DEBUG - Theme 'dark' is already applied. Skipping re-application.
+2025-01-28 01:41:44,317 - app_logger - DEBUG - Theme 'dark' is already applied. Skipping re-application.
+2025-01-28 01:41:44,318 - app_logger - DEBUG - Navigation left menu updated with the new theme.
+2025-01-28 01:41:44,318 - app_logger - DEBUG - Theme 'dark' is already applied. Skipping re-application.
+2025-01-28 01:41:44,318 - app_logger - DEBUG - Found status label: True
+2025-01-28 01:41:44,318 - app_logger - DEBUG - Found version label: True
+2025-01-28 01:41:44,319 - app_logger - DEBUG - Footer frame updated with the new theme.
+2025-01-28 01:41:44,319 - app_logger - DEBUG - Applied code block styles to all registered text widgets.
+2025-01-28 01:41:44,319 - app_logger - INFO - Theme 'dark' applied successfully.
+2025-01-28 01:41:44,354 - app_logger - INFO - UI initialization complete.
+2025-01-28 01:41:44,354 - app_logger - INFO - Starting page discovery process...
+2025-01-28 01:41:44,354 - app_logger - DEBUG - Using layout directory: C:\Users\Tobia\NodeX\frontend\Pages\desktop\Layout
+2025-01-28 01:41:44,357 - app_logger - DEBUG - Found subdirectories in 'C:\Users\Tobia\NodeX\frontend\Pages\desktop\Layout': ['2_script_launcher_page', '3_new_Page_Template', '4_chats', 'chat', 'Dashboard', 'Markdown_CSV_Extr']
+2025-01-28 01:41:44,357 - app_logger - DEBUG - Found page directories: ['2_script_launcher_page', '3_new_Page_Template', '4_chats', 'chat', 'Dashboard', 'Markdown_CSV_Extr']
+2025-01-28 01:41:44,357 - app_logger - DEBUG - Built module path: frontend.Pages.desktop.Layout.2_script_launcher_page.Page
+2025-01-28 01:41:44,364 - app_logger - DEBUG - Modul 'frontend.Pages.desktop.Layout.2_script_launcher_page.Page' laddad framgångsrikt.
+2025-01-28 01:41:44,364 - app_logger - INFO - Page '2_script_launcher_page' discovered and loaded
+2025-01-28 01:41:44,364 - app_logger - DEBUG - Built module path: frontend.Pages.desktop.Layout.3_new_Page_Template.Page
+2025-01-28 01:41:44,370 - app_logger - DEBUG - Modul 'frontend.Pages.desktop.Layout.3_new_Page_Template.Page' laddad framgångsrikt.
+2025-01-28 01:41:44,370 - app_logger - INFO - Page '3_new_Page_Template' discovered and loaded
+2025-01-28 01:41:44,370 - app_logger - DEBUG - Built module path: frontend.Pages.desktop.Layout.4_chats.Page
+2025-01-28 01:41:46,827 - app_logger - INFO - Agent configuration loaded from agent_settings.json
+2025-01-28 01:41:47,316 - app_logger - INFO - Agent configuration loaded from agent_settings.json
+2025-01-28 01:41:47,319 - app_logger - INFO - Agent configuration loaded from agent_settings.json
+2025-01-28 01:41:47,384 - app_logger - INFO - Agent configuration loaded from agent_settings.json
+2025-01-28 01:41:47,384 - app_logger - DEBUG - Modul 'frontend.Pages.desktop.Layout.4_chats.Page' laddad framgångsrikt.
+2025-01-28 01:41:47,384 - app_logger - INFO - Page '4_chats' discovered and loaded
+2025-01-28 01:41:47,384 - app_logger - DEBUG - Built module path: frontend.Pages.desktop.Layout.chat.Page
+2025-01-28 01:41:47,394 - app_logger - INFO - Agent configuration loaded from agent_settings.json
+2025-01-28 01:41:47,394 - app_logger - DEBUG - Modul 'frontend.Pages.desktop.Layout.chat.Page' laddad framgångsrikt.
+2025-01-28 01:41:47,394 - app_logger - INFO - Page 'chat' discovered and loaded
+2025-01-28 01:41:47,394 - app_logger - DEBUG - Built module path: frontend.Pages.desktop.Layout.Dashboard.Page
+2025-01-28 01:41:47,410 - app_logger - DEBUG - Modul 'frontend.Pages.desktop.Layout.Dashboard.Page' laddad framgångsrikt.
+2025-01-28 01:41:47,410 - app_logger - INFO - Page 'Dashboard' discovered and loaded
+2025-01-28 01:41:47,411 - app_logger - DEBUG - Built module path: frontend.Pages.desktop.Layout.Markdown_CSV_Extr.Page
+2025-01-28 01:41:47,434 - app_logger - DEBUG - Modul 'frontend.Pages.desktop.Layout.Markdown_CSV_Extr.Page' laddad framgångsrikt.
+2025-01-28 01:41:47,434 - app_logger - INFO - Page 'Markdown_CSV_Extr' discovered and loaded
+2025-01-28 01:41:47,436 - app_logger - INFO - Added 6 pages to navigation menu
+2025-01-28 01:41:47,436 - app_logger - INFO - Page discovery completed
+2025-01-28 01:41:47,436 - app_logger - INFO - Attempting to load last used page
+2025-01-28 01:41:47,436 - app_logger - DEBUG - Retrieved last page from state handler: chat
+2025-01-28 01:41:47,436 - app_logger - INFO - Attempting to load page: chat
+2025-01-28 01:41:47,436 - app_logger - DEBUG - Creating new instance of page 'chat'
+2025-01-28 01:41:47,456 - app_logger - INFO - AIService initialized with model: LM Studio Model
+2025-01-28 01:41:47,456 - app_logger - INFO - Loaded agent configuration: {'enabled': True, 'current_agent': 'crew', 'profile': {'name': 'Crew AI Agent', 'description': 'Advanced multi-agent system for comprehensive software development workflows', 'enabled': False, 'config': {'max_team_size': 5, 'process_type': 'parallel', 'verbose': True, 'tools': {'code_formatter': True, 'doc_generator': True, 'testing_tool': True, 'integration_tool': True}, 'workflows': {'design': {'enabled': True, 'name': 'System Design', 'description': 'Design and plan system architecture', 'steps': ['requirement_analysis', 'architecture_planning', 'tool_selection', 'design_review', 'documentation'], 'roles': {'system_architect': 'Design system architecture', 'designer': 'Plan and create design artifacts'}}, 'implementation': {'enabled': True, 'name': 'Feature Implementation', 'description': 'Develop and integrate new features', 'steps': ['feature_specification', 'development', 'code_review', 'integration', 'testing', 'deployment'], 'roles': {'senior_developer': 'Lead feature development', 'tester': 'Perform testing and validation', 'deploy_manager': 'Manage deployment processes'}}, 'review': {'enabled': True, 'name': 'Code and Architecture Review', 'description': 'Review code quality and architectural decisions', 'steps': ['code_audit', 'architecture_evaluation', 'recommendations', 'implementation_of_recommendations'], 'roles': {'code_reviewer': 'Audit and review code', 'architecture_reviewer': 'Evaluate architectural decisions'}}, 'deployment': {'enabled': True, 'name': 'System Integration and Deployment', 'description': 'Integrate systems and manage deployments', 'steps': ['integration_planning', 'dependency_resolution', 'deployment_execution', 'post_deployment_testing', 'monitoring'], 'roles': {'integration_manager': 'Plan and oversee system integrations', 'deployment_engineer': 'Execute deployment processes', 'monitoring_specialist': 'Monitor system performance post-deployment'}}}, 'roles': {'system_architect': {'enabled': True, 'temperature': 0.3, 'description': 'Design and plan system architecture', 'responsibilities': ['System architecture design', 'Tool and technology selection', 'Design documentation', 'Architecture reviews']}, 'designer': {'enabled': True, 'temperature': 0.4, 'description': 'Create design artifacts and plans', 'responsibilities': ['UI/UX design', 'Design documentation', 'Prototype development', 'Design reviews']}, 'senior_developer': {'enabled': True, 'temperature': 0.5, 'description': 'Lead feature development and implementation', 'responsibilities': ['Feature specification', 'Code development', 'Mentoring junior developers', 'Code reviews']}, 'tester': {'enabled': True, 'temperature': 0.4, 'description': 'Perform testing and ensure quality', 'responsibilities': ['Test case development', 'Automated and manual testing', 'Bug reporting', 'Quality assurance']}, 'deploy_manager': {'enabled': True, 'temperature': 0.4, 'description': 'Manage deployment processes and environments', 'responsibilities': ['Deployment planning', 'Environment setup', 'Deployment execution', 'Post-deployment monitoring']}, 'code_reviewer': {'enabled': True, 'temperature': 0.3, 'description': 'Audit and review code quality', 'responsibilities': ['Code auditing', 'Ensuring coding standards', 'Providing feedback', 'Collaborating with developers']}, 'architecture_reviewer': {'enabled': True, 'temperature': 0.3, 'description': 'Evaluate and review architectural decisions', 'responsibilities': ['Architecture evaluation', 'Ensuring scalability and maintainability', 'Providing architectural feedback', 'Collaborating with architects']}, 'integration_manager': {'enabled': True, 'temperature': 0.4, 'description': 'Plan and oversee system integrations', 'responsibilities': ['Integration planning', 'Managing dependencies', 'Coordinating with development teams', 'Ensuring seamless integrations']}, 'deployment_engineer': {'enabled': True, 'temperature': 0.4, 'description': 'Execute deployment processes', 'responsibilities': ['Deployment scripting', 'Environment configuration', 'Executing deployment pipelines', 'Troubleshooting deployment issues']}, 'monitoring_specialist': {'enabled': True, 'temperature': 0.4, 'description': 'Monitor system performance post-deployment', 'responsibilities': ['Setting up monitoring tools', 'Performance tracking', 'Alerting and incident management', 'Reporting on system health']}}}}, 'config': {'current_workflow': 'implementation'}}
+2025-01-28 01:41:47,456 - app_logger - DEBUG - AIService initialized in Chat Page.
+2025-01-28 01:41:47,456 - app_logger - DEBUG - Initializing UI components.
+2025-01-28 01:41:47,457 - app_logger - DEBUG - Setting up the UI.
+2025-01-28 01:41:47,457 - app_logger - DEBUG - Theme 'dark' is already applied. Skipping re-application.
+2025-01-28 01:41:47,457 - app_logger - INFO - Icon theme set to 'dark'. (Implement as needed)
+2025-01-28 01:41:47,457 - app_logger - INFO - Theme 'dark' applied successfully to widget and application.
+2025-01-28 01:41:47,468 - app_logger - DEBUG - Initializing controls area.
+2025-01-28 01:41:47,468 - app_logger - DEBUG - Model selection controls initialized.
+2025-01-28 01:41:47,469 - app_logger - DEBUG - Temperature controls initialized.
+2025-01-28 01:41:47,470 - app_logger - DEBUG - Max Tokens controls initialized.
+2025-01-28 01:41:47,472 - app_logger - DEBUG - Developer Agent controls initialized.
+2025-01-28 01:41:47,472 - app_logger - DEBUG - Crew Agent controls initialized.
+2025-01-28 01:41:47,473 - app_logger - DEBUG - Developer Workflow controls initialized.
+2025-01-28 01:41:47,473 - app_logger - DEBUG - Crew Workflow controls initialized.
+2025-01-28 01:41:47,473 - app_logger - DEBUG - Workflow status label initialized.
+2025-01-28 01:41:47,475 - app_logger - DEBUG - Agent controls added to controls area.
+2025-01-28 01:41:47,477 - app_logger - DEBUG - System Prompt controls initialized.
+2025-01-28 01:41:47,505 - app_logger - DEBUG - AutoG and Prefix controls added to controls area.
+2025-01-28 01:41:47,509 - app_logger - DEBUG - System prompt content loaded.
+2025-01-28 01:41:47,509 - app_logger - ERROR - system_prompt_analysis_textedit is None, cannot setPlainText.
+2025-01-28 01:41:47,509 - app_logger - DEBUG - System prompt updated based on initial selection.
+2025-01-28 01:41:47,510 - app_logger - DEBUG - Controls area UI setup complete.
+2025-01-28 01:41:47,513 - app_logger - DEBUG - Main splitter initialized.
+2025-01-28 01:41:47,513 - app_logger - DEBUG - Initializing left sidebar with tabs.
+2025-01-28 01:41:47,513 - app_logger - INFO - Qt: Unknown property pane-border-top
+2025-01-28 01:41:47,513 - app_logger - INFO - Qt: Unknown property tab-bar-alignment
+2025-01-28 01:41:47,513 - app_logger - DEBUG - Initializing Chat History tab.
+2025-01-28 01:41:47,517 - app_logger - DEBUG - Loading chat history.
+2025-01-28 01:41:47,518 - app_logger - INFO - Chat history loaded.
+2025-01-28 01:41:47,518 - app_logger - INFO - Chat history loaded.
+2025-01-28 01:41:47,518 - app_logger - DEBUG - Chat History tab initialized.
+2025-01-28 01:41:47,518 - app_logger - DEBUG - Initializing File Management tab.
+2025-01-28 01:41:47,519 - app_logger - DEBUG - File Management tab initialized.
+2025-01-28 01:41:47,519 - app_logger - DEBUG - Initializing Processing tab.
+2025-01-28 01:41:47,519 - app_logger - DEBUG - Process Files button added.
+2025-01-28 01:41:47,520 - app_logger - DEBUG - Stop button added and disabled initially.
+2025-01-28 01:41:47,520 - app_logger - DEBUG - Progress bar added and hidden initially.
+2025-01-28 01:41:47,521 - app_logger - DEBUG - Processing log added and hidden initially.
+2025-01-28 01:41:47,521 - app_logger - DEBUG - Processing tab initialized.
+2025-01-28 01:41:47,521 - app_logger - DEBUG - Initializing Code Blocks tab.
+2025-01-28 01:41:47,523 - app_logger - DEBUG - Code Blocks tab initialized.
+2025-01-28 01:41:47,525 - app_logger - DEBUG - Tabs added to left sidebar.
+2025-01-28 01:41:47,525 - app_logger - DEBUG - Initializing main content area.
+2025-01-28 01:41:47,526 - app_logger - DEBUG - Chat display added.
+2025-01-28 01:41:47,526 - app_logger - DEBUG - Initializing user input area.
+2025-01-28 01:41:47,527 - app_logger - DEBUG - User message text edit added.
+2025-01-28 01:41:47,527 - app_logger - DEBUG - Token count label added.
+2025-01-28 01:41:47,528 - app_logger - DEBUG - Send button added and connected.
+2025-01-28 01:41:47,528 - app_logger - DEBUG - User input area added with adjusted spacing.
+2025-01-28 01:41:47,529 - app_logger - DEBUG - Main content area initialized.
+2025-01-28 01:41:47,529 - app_logger - DEBUG - Initializing right sidebar.
+2025-01-28 01:41:47,529 - app_logger - DEBUG - Tab widget added to right sidebar.
+2025-01-28 01:41:47,529 - app_logger - DEBUG - Initializing Code Analysis Tool.
+2025-01-28 01:41:47,530 - app_logger - DEBUG - Input directory controls added.
+2025-01-28 01:41:47,530 - app_logger - DEBUG - Output directory controls added.
+2025-01-28 01:41:47,531 - app_logger - DEBUG - Extensions controls added.
+2025-01-28 01:41:47,532 - app_logger - DEBUG - System prompt for code analysis added.
+2025-01-28 01:41:47,532 - app_logger - DEBUG - Start Analysis button added and connected.
+2025-01-28 01:41:47,532 - app_logger - DEBUG - Analysis results text edit added.
+2025-01-28 01:41:47,534 - app_logger - DEBUG - Code Analysis Tool tab added.
+2025-01-28 01:41:47,539 - app_logger - DEBUG - Components added to main splitter.
+2025-01-28 01:41:47,540 - app_logger - DEBUG - Splitter sizes and constraints set.
+2025-01-28 01:41:47,546 - app_logger - DEBUG - Initializing status bar.
+2025-01-28 01:41:47,547 - app_logger - DEBUG - Status bar initialization complete.
+2025-01-28 01:41:47,547 - app_logger - DEBUG - UI initialization complete.
+2025-01-28 01:41:47,550 - app_logger - DEBUG - Starting a new chat session.
+2025-01-28 01:41:47,551 - app_logger - INFO - Chat log saved for chat_id 20250128014147
+2025-01-28 01:41:47,616 - app_logger - DEBUG - Theme 'dark' is already applied. Skipping re-application.
+2025-01-28 01:41:48,806 - app_logger - INFO - Icon theme set to 'dark'. (Implement as needed)
+2025-01-28 01:41:48,806 - app_logger - INFO - Theme 'dark' applied successfully to widget and application.
+2025-01-28 01:41:48,810 - app_logger - DEBUG - Theme applied successfully to page
+2025-01-28 01:41:48,810 - app_logger - DEBUG - Switched to page 'chat' at index 0
+2025-01-28 01:41:48,811 - app_logger - DEBUG - Saved 'chat' as last page in state file
+2025-01-28 01:41:48,811 - app_logger - INFO - Successfully initialized page 'chat'
+2025-01-28 01:41:48,811 - app_logger - INFO - Successfully loaded last page: chat
+2025-01-28 01:41:48,811 - app_logger - INFO - Initializing key bindings...
+2025-01-28 01:41:48,812 - app_logger - INFO - Key bindings successfully setup
+2025-01-28 01:41:48,985 - app_logger - INFO - Application window displayed. Entering event loop.
+2025-01-28 01:41:48,986 - app_logger - DEBUG - ic| c:\Users\Tobia\NodeX\dynamic_main_ref.py:214 - Application started
+2025-01-28 01:41:48,999 - app_logger - DEBUG - System prompt for code analysis synced with UI.
+2025-01-28 01:42:29,878 - app_logger - DEBUG - All panels hidden
+2025-01-28 01:42:29,885 - app_logger - DEBUG - Showing WhisperPanel at position (1896, 260)
+2025-01-28 01:42:29,886 - app_logger - INFO - WhisperPanel panel shown
+2025-01-28 01:42:29,886 - app_logger - INFO - Whisper panel toggled
+2025-01-28 01:43:46,246 - app_logger - INFO - [update_agent_config] Called with {'enabled': False, 'current_agent': 'crew'}
+2025-01-28 01:43:46,247 - app_logger - INFO - Stack trace for update_agent_config:
+  File "c:\Users\Tobia\NodeX\dynamic_main_ref.py", line 265, in <module>
+    ApplicationManager.run_application()
+  File "c:\Users\Tobia\NodeX\dynamic_main_ref.py", line 216, in run_application
+    return_code = app.exec()
+  File "c:\Users\Tobia\NodeX\frontend\Pages\desktop\Layout\chat\Page.py", line 482, in <lambda>
+    self.crew_toggle.toggled.connect(lambda checked: self.toggle_agent_mode('crew', checked))
+  File "c:\Users\Tobia\NodeX\frontend\Pages\desktop\Layout\chat\Page.py", line 2160, in toggle_agent_mode
+    success = self.ai_service.update_agent(
+  File "c:\Users\Tobia\NodeX\ai_agent\services\ai_service.py", line 50, in update_agent
+    self.config.update_agent_config(updates)
+  File "c:\Users\Tobia\NodeX\ai_agent\config\ai_config.py", line 315, in update_agent_config
+    logger.info("Stack trace for update_agent_config:\n" + "".join(traceback.format_stack()))
+
+2025-01-28 01:43:46,247 - app_logger - INFO - Agent configuration updated: {'enabled': False, 'current_agent': 'crew'}
+2025-01-28 01:43:46,248 - app_logger - INFO - Agent configuration saved to agent_settings.json
+2025-01-28 01:43:46,248 - app_logger - INFO - Loaded agent configuration: {'enabled': False, 'current_agent': 'crew', 'profile': {'name': 'Crew AI Agent', 'description': 'Advanced multi-agent system for comprehensive software development workflows', 'enabled': False, 'config': {'max_team_size': 5, 'process_type': 'parallel', 'verbose': True, 'tools': {'code_formatter': True, 'doc_generator': True, 'testing_tool': True, 'integration_tool': True}, 'workflows': {'design': {'enabled': True, 'name': 'System Design', 'description': 'Design and plan system architecture', 'steps': ['requirement_analysis', 'architecture_planning', 'tool_selection', 'design_review', 'documentation'], 'roles': {'system_architect': 'Design system architecture', 'designer': 'Plan and create design artifacts'}}, 'implementation': {'enabled': True, 'name': 'Feature Implementation', 'description': 'Develop and integrate new features', 'steps': ['feature_specification', 'development', 'code_review', 'integration', 'testing', 'deployment'], 'roles': {'senior_developer': 'Lead feature development', 'tester': 'Perform testing and validation', 'deploy_manager': 'Manage deployment processes'}}, 'review': {'enabled': True, 'name': 'Code and Architecture Review', 'description': 'Review code quality and architectural decisions', 'steps': ['code_audit', 'architecture_evaluation', 'recommendations', 'implementation_of_recommendations'], 'roles': {'code_reviewer': 'Audit and review code', 'architecture_reviewer': 'Evaluate architectural decisions'}}, 'deployment': {'enabled': True, 'name': 'System Integration and Deployment', 'description': 'Integrate systems and manage deployments', 'steps': ['integration_planning', 'dependency_resolution', 'deployment_execution', 'post_deployment_testing', 'monitoring'], 'roles': {'integration_manager': 'Plan and oversee system integrations', 'deployment_engineer': 'Execute deployment processes', 'monitoring_specialist': 'Monitor system performance post-deployment'}}}, 'roles': {'system_architect': {'enabled': True, 'temperature': 0.3, 'description': 'Design and plan system architecture', 'responsibilities': ['System architecture design', 'Tool and technology selection', 'Design documentation', 'Architecture reviews']}, 'designer': {'enabled': True, 'temperature': 0.4, 'description': 'Create design artifacts and plans', 'responsibilities': ['UI/UX design', 'Design documentation', 'Prototype development', 'Design reviews']}, 'senior_developer': {'enabled': True, 'temperature': 0.5, 'description': 'Lead feature development and implementation', 'responsibilities': ['Feature specification', 'Code development', 'Mentoring junior developers', 'Code reviews']}, 'tester': {'enabled': True, 'temperature': 0.4, 'description': 'Perform testing and ensure quality', 'responsibilities': ['Test case development', 'Automated and manual testing', 'Bug reporting', 'Quality assurance']}, 'deploy_manager': {'enabled': True, 'temperature': 0.4, 'description': 'Manage deployment processes and environments', 'responsibilities': ['Deployment planning', 'Environment setup', 'Deployment execution', 'Post-deployment monitoring']}, 'code_reviewer': {'enabled': True, 'temperature': 0.3, 'description': 'Audit and review code quality', 'responsibilities': ['Code auditing', 'Ensuring coding standards', 'Providing feedback', 'Collaborating with developers']}, 'architecture_reviewer': {'enabled': True, 'temperature': 0.3, 'description': 'Evaluate and review architectural decisions', 'responsibilities': ['Architecture evaluation', 'Ensuring scalability and maintainability', 'Providing architectural feedback', 'Collaborating with architects']}, 'integration_manager': {'enabled': True, 'temperature': 0.4, 'description': 'Plan and oversee system integrations', 'responsibilities': ['Integration planning', 'Managing dependencies', 'Coordinating with development teams', 'Ensuring seamless integrations']}, 'deployment_engineer': {'enabled': True, 'temperature': 0.4, 'description': 'Execute deployment processes', 'responsibilities': ['Deployment scripting', 'Environment configuration', 'Executing deployment pipelines', 'Troubleshooting deployment issues']}, 'monitoring_specialist': {'enabled': True, 'temperature': 0.4, 'description': 'Monitor system performance post-deployment', 'responsibilities': ['Setting up monitoring tools', 'Performance tracking', 'Alerting and incident management', 'Reporting on system health']}}}}, 'config': {'current_workflow': 'implementation'}}
+2025-01-28 01:43:46,248 - app_logger - INFO - Agent updated successfully: {'enabled': False, 'current_agent': 'crew'}
+2025-01-28 01:43:50,657 - app_logger - INFO - [update_agent_config] Called with {'enabled': False, 'current_agent': 'developer'}
+2025-01-28 01:43:50,658 - app_logger - INFO - Stack trace for update_agent_config:
+  File "c:\Users\Tobia\NodeX\dynamic_main_ref.py", line 265, in <module>
+    ApplicationManager.run_application()
+  File "c:\Users\Tobia\NodeX\dynamic_main_ref.py", line 216, in run_application
+    return_code = app.exec()
+  File "c:\Users\Tobia\NodeX\frontend\Pages\desktop\Layout\chat\Page.py", line 465, in <lambda>
+    self.developer_toggle.toggled.connect(lambda checked: self.toggle_agent_mode('developer', checked))
+  File "c:\Users\Tobia\NodeX\frontend\Pages\desktop\Layout\chat\Page.py", line 2160, in toggle_agent_mode
+    success = self.ai_service.update_agent(
+  File "c:\Users\Tobia\NodeX\ai_agent\services\ai_service.py", line 50, in update_agent
+    self.config.update_agent_config(updates)
+  File "c:\Users\Tobia\NodeX\ai_agent\config\ai_config.py", line 315, in update_agent_config
+    logger.info("Stack trace for update_agent_config:\n" + "".join(traceback.format_stack()))
+
+2025-01-28 01:43:50,658 - app_logger - INFO - Agent configuration updated: {'enabled': False, 'current_agent': 'developer'}
+2025-01-28 01:43:50,659 - app_logger - INFO - Agent configuration saved to agent_settings.json
+2025-01-28 01:43:50,659 - app_logger - INFO - Loaded agent configuration: {'enabled': False, 'current_agent': 'developer', 'profile': {'name': 'Developer Agent', 'description': 'Multi-agent system for software development', 'enabled': True, 'config': {'max_team_size': 3, 'process_type': 'sequential', 'verbose': True, 'tools': {'code_analysis': True, 'dependency_tracking': True, 'impact_analysis': True, 'documentation_generation': True}, 'workflows': {'troubleshoot': {'enabled': True, 'name': 'Problem Solving', 'description': 'Debug and fix issues', 'steps': ['problem_analysis', 'context_gathering', 'error_diagnosis', 'solution_design', 'implementation', 'verification'], 'roles': {'architect': 'Analyze system impact and dependencies', 'debugger': 'Diagnose and fix issues', 'tester': 'Verify solutions'}}, 'improve': {'enabled': True, 'name': 'Code Enhancement', 'description': 'Improve code quality and structure', 'steps': ['code_review', 'quality_analysis', 'pattern_recognition', 'reusability_check', 'improvement_planning', 'refactoring', 'validation'], 'roles': {'analyst': 'Review and analyze code', 'architect': 'Design improvements', 'developer': 'Implement changes'}}, 'develop': {'enabled': True, 'name': 'New Development', 'description': 'Develop new features with dependency management', 'steps': ['requirement_analysis', 'dependency_check', 'impact_analysis', 'design_planning', 'implementation', 'integration', 'dependency_updates', 'testing'], 'roles': {'architect': 'Design and plan', 'developer': 'Implement features', 'integrator': 'Handle dependencies'}}, 'document': {'enabled': True, 'name': 'Documentation', 'description': 'Create professional documentation', 'steps': ['scope_analysis', 'content_assessment', 'structure_planning', 'content_creation', 'review_and_refine', 'validation'], 'roles': {'analyst': 'Analyze and plan documentation', 'writer': 'Create and refine content', 'reviewer': 'Review and validate'}}}, 'roles': {'architect': {'enabled': True, 'temperature': 0.3, 'description': 'System design and architecture', 'responsibilities': ['System design', 'Dependency management', 'Architecture decisions', 'Impact analysis']}, 'developer': {'enabled': True, 'temperature': 0.5, 'description': 'Implementation and problem-solving', 'responsibilities': ['Code implementation', 'Bug fixing', 'Feature development', 'Testing']}, 'analyst': {'enabled': True, 'temperature': 0.4, 'description': 'Analysis and documentation', 'responsibilities': ['Code analysis', 'Pattern recognition', 'Documentation', 'Quality assessment']}, 'integrator': {'enabled': True, 'temperature': 0.4, 'description': 'Integration and dependencies', 'responsibilities': ['Dependency management', 'System integration', 'Compatibility checks', 'Version control']}}}}, 'config': {'current_workflow': 'implementation'}}
+2025-01-28 01:43:50,659 - app_logger - INFO - Agent updated successfully: {'enabled': False, 'current_agent': 'developer'}
+2025-01-28 01:43:54,583 - app_logger - INFO - [update_agent_config] Called with {'enabled': True, 'current_agent': 'developer', 'config': {'current_workflow': 'troubleshoot'}}
+2025-01-28 01:43:54,583 - app_logger - INFO - Stack trace for update_agent_config:
+  File "c:\Users\Tobia\NodeX\dynamic_main_ref.py", line 265, in <module>
+    ApplicationManager.run_application()
+  File "c:\Users\Tobia\NodeX\dynamic_main_ref.py", line 216, in run_application
+    return_code = app.exec()
+  File "c:\Users\Tobia\NodeX\frontend\Pages\desktop\Layout\chat\Page.py", line 465, in <lambda>
+    self.developer_toggle.toggled.connect(lambda checked: self.toggle_agent_mode('developer', checked))
+  File "c:\Users\Tobia\NodeX\frontend\Pages\desktop\Layout\chat\Page.py", line 2160, in toggle_agent_mode
+    success = self.ai_service.update_agent(
+  File "c:\Users\Tobia\NodeX\ai_agent\services\ai_service.py", line 50, in update_agent
+    self.config.update_agent_config(updates)
+  File "c:\Users\Tobia\NodeX\ai_agent\config\ai_config.py", line 315, in update_agent_config
+    logger.info("Stack trace for update_agent_config:\n" + "".join(traceback.format_stack()))
+
+2025-01-28 01:43:54,583 - app_logger - INFO - Agent configuration updated: {'enabled': True, 'current_agent': 'developer', 'config': {'current_workflow': 'troubleshoot'}}
+2025-01-28 01:43:54,585 - app_logger - INFO - Agent configuration saved to agent_settings.json
+2025-01-28 01:43:54,585 - app_logger - INFO - Loaded agent configuration: {'enabled': True, 'current_agent': 'developer', 'profile': {'name': 'Developer Agent', 'description': 'Multi-agent system for software development', 'enabled': True, 'config': {'max_team_size': 3, 'process_type': 'sequential', 'verbose': True, 'tools': {'code_analysis': True, 'dependency_tracking': True, 'impact_analysis': True, 'documentation_generation': True}, 'workflows': {'troubleshoot': {'enabled': True, 'name': 'Problem Solving', 'description': 'Debug and fix issues', 'steps': ['problem_analysis', 'context_gathering', 'error_diagnosis', 'solution_design', 'implementation', 'verification'], 'roles': {'architect': 'Analyze system impact and dependencies', 'debugger': 'Diagnose and fix issues', 'tester': 'Verify solutions'}}, 'improve': {'enabled': True, 'name': 'Code Enhancement', 'description': 'Improve code quality and structure', 'steps': ['code_review', 'quality_analysis', 'pattern_recognition', 'reusability_check', 'improvement_planning', 'refactoring', 'validation'], 'roles': {'analyst': 'Review and analyze code', 'architect': 'Design improvements', 'developer': 'Implement changes'}}, 'develop': {'enabled': True, 'name': 'New Development', 'description': 'Develop new features with dependency management', 'steps': ['requirement_analysis', 'dependency_check', 'impact_analysis', 'design_planning', 'implementation', 'integration', 'dependency_updates', 'testing'], 'roles': {'architect': 'Design and plan', 'developer': 'Implement features', 'integrator': 'Handle dependencies'}}, 'document': {'enabled': True, 'name': 'Documentation', 'description': 'Create professional documentation', 'steps': ['scope_analysis', 'content_assessment', 'structure_planning', 'content_creation', 'review_and_refine', 'validation'], 'roles': {'analyst': 'Analyze and plan documentation', 'writer': 'Create and refine content', 'reviewer': 'Review and validate'}}}, 'roles': {'architect': {'enabled': True, 'temperature': 0.3, 'description': 'System design and architecture', 'responsibilities': ['System design', 'Dependency management', 'Architecture decisions', 'Impact analysis']}, 'developer': {'enabled': True, 'temperature': 0.5, 'description': 'Implementation and problem-solving', 'responsibilities': ['Code implementation', 'Bug fixing', 'Feature development', 'Testing']}, 'analyst': {'enabled': True, 'temperature': 0.4, 'description': 'Analysis and documentation', 'responsibilities': ['Code analysis', 'Pattern recognition', 'Documentation', 'Quality assessment']}, 'integrator': {'enabled': True, 'temperature': 0.4, 'description': 'Integration and dependencies', 'responsibilities': ['Dependency management', 'System integration', 'Compatibility checks', 'Version control']}}}}, 'config': {'current_workflow': 'troubleshoot'}}
+2025-01-28 01:43:54,585 - app_logger - INFO - Agent updated successfully: {'enabled': True, 'current_agent': 'developer', 'config': {'current_workflow': 'troubleshoot'}}
+2025-01-28 01:44:27,434 - app_logger - DEBUG - System prompt content loaded.
+2025-01-28 01:44:27,446 - app_logger - DEBUG - System prompt for code analysis synced with UI.
+2025-01-28 01:44:27,446 - app_logger - DEBUG - System prompt text edit updated with new content.
+2025-01-28 01:44:30,238 - app_logger - DEBUG - System prompt content loaded.
+2025-01-28 01:44:30,248 - app_logger - DEBUG - System prompt for code analysis synced with UI.
+2025-01-28 01:44:30,248 - app_logger - DEBUG - System prompt text edit updated with new content.
+2025-01-28 01:44:32,467 - app_logger - DEBUG - System prompt content loaded.
+2025-01-28 01:44:32,475 - app_logger - DEBUG - System prompt for code analysis synced with UI.
+2025-01-28 01:44:32,475 - app_logger - DEBUG - System prompt text edit updated with new content.
+2025-01-28 01:45:09,404 - app_logger - DEBUG - System prompt content loaded.
+2025-01-28 01:45:09,414 - app_logger - DEBUG - System prompt for code analysis synced with UI.
+2025-01-28 01:45:09,414 - app_logger - DEBUG - System prompt text edit updated with new content.
+2025-01-28 01:45:26,203 - app_logger - DEBUG - System prompt content loaded.
+2025-01-28 01:45:26,212 - app_logger - DEBUG - System prompt for code analysis synced with UI.
+2025-01-28 01:45:26,213 - app_logger - DEBUG - System prompt text edit updated with new content.
+2025-01-28 01:46:00,787 - app_logger - DEBUG - System prompt content loaded.
+2025-01-28 01:46:00,843 - app_logger - DEBUG - System prompt for code analysis synced with UI.
+2025-01-28 01:46:00,843 - app_logger - DEBUG - System prompt text edit updated with new content.
+2025-01-28 01:46:11,801 - app_logger - DEBUG - System prompt content loaded.
+2025-01-28 01:46:11,811 - app_logger - DEBUG - System prompt for code analysis synced with UI.
+2025-01-28 01:46:11,812 - app_logger - DEBUG - System prompt text edit updated with new content.
+2025-01-28 01:46:26,162 - app_logger - DEBUG - System prompt content loaded.
+2025-01-28 01:46:26,166 - app_logger - DEBUG - System prompt for code analysis synced with UI.
+2025-01-28 01:46:26,166 - app_logger - DEBUG - System prompt text edit updated with new content.
+2025-01-28 01:46:38,061 - app_logger - DEBUG - System prompt content loaded.
+2025-01-28 01:46:38,072 - app_logger - DEBUG - System prompt for code analysis synced with UI.
+2025-01-28 01:46:38,073 - app_logger - DEBUG - System prompt text edit updated with new content.
+2025-01-28 01:48:16,738 - app_logger - INFO - AIService updated to model: LM Studio Model
+2025-01-28 01:48:27,157 - app_logger - INFO - Attempting to load page: 4_chats
+2025-01-28 01:48:27,157 - app_logger - DEBUG - Creating new instance of page '4_chats'
+2025-01-28 01:48:27,172 - app_logger - INFO - AIService initialized with model: LM Studio Model
+2025-01-28 01:48:27,172 - app_logger - INFO - Loaded agent configuration: {'enabled': True, 'current_agent': 'crew', 'profile': {'name': 'Crew AI Agent', 'description': 'Advanced multi-agent system for comprehensive software development workflows', 'enabled': False, 'config': {'max_team_size': 5, 'process_type': 'parallel', 'verbose': True, 'tools': {'code_formatter': True, 'doc_generator': True, 'testing_tool': True, 'integration_tool': True}, 'workflows': {'design': {'enabled': True, 'name': 'System Design', 'description': 'Design and plan system architecture', 'steps': ['requirement_analysis', 'architecture_planning', 'tool_selection', 'design_review', 'documentation'], 'roles': {'system_architect': 'Design system architecture', 'designer': 'Plan and create design artifacts'}}, 'implementation': {'enabled': True, 'name': 'Feature Implementation', 'description': 'Develop and integrate new features', 'steps': ['feature_specification', 'development', 'code_review', 'integration', 'testing', 'deployment'], 'roles': {'senior_developer': 'Lead feature development', 'tester': 'Perform testing and validation', 'deploy_manager': 'Manage deployment processes'}}, 'review': {'enabled': True, 'name': 'Code and Architecture Review', 'description': 'Review code quality and architectural decisions', 'steps': ['code_audit', 'architecture_evaluation', 'recommendations', 'implementation_of_recommendations'], 'roles': {'code_reviewer': 'Audit and review code', 'architecture_reviewer': 'Evaluate architectural decisions'}}, 'deployment': {'enabled': True, 'name': 'System Integration and Deployment', 'description': 'Integrate systems and manage deployments', 'steps': ['integration_planning', 'dependency_resolution', 'deployment_execution', 'post_deployment_testing', 'monitoring'], 'roles': {'integration_manager': 'Plan and oversee system integrations', 'deployment_engineer': 'Execute deployment processes', 'monitoring_specialist': 'Monitor system performance post-deployment'}}}, 'roles': {'system_architect': {'enabled': True, 'temperature': 0.3, 'description': 'Design and plan system architecture', 'responsibilities': ['System architecture design', 'Tool and technology selection', 'Design documentation', 'Architecture reviews']}, 'designer': {'enabled': True, 'temperature': 0.4, 'description': 'Create design artifacts and plans', 'responsibilities': ['UI/UX design', 'Design documentation', 'Prototype development', 'Design reviews']}, 'senior_developer': {'enabled': True, 'temperature': 0.5, 'description': 'Lead feature development and implementation', 'responsibilities': ['Feature specification', 'Code development', 'Mentoring junior developers', 'Code reviews']}, 'tester': {'enabled': True, 'temperature': 0.4, 'description': 'Perform testing and ensure quality', 'responsibilities': ['Test case development', 'Automated and manual testing', 'Bug reporting', 'Quality assurance']}, 'deploy_manager': {'enabled': True, 'temperature': 0.4, 'description': 'Manage deployment processes and environments', 'responsibilities': ['Deployment planning', 'Environment setup', 'Deployment execution', 'Post-deployment monitoring']}, 'code_reviewer': {'enabled': True, 'temperature': 0.3, 'description': 'Audit and review code quality', 'responsibilities': ['Code auditing', 'Ensuring coding standards', 'Providing feedback', 'Collaborating with developers']}, 'architecture_reviewer': {'enabled': True, 'temperature': 0.3, 'description': 'Evaluate and review architectural decisions', 'responsibilities': ['Architecture evaluation', 'Ensuring scalability and maintainability', 'Providing architectural feedback', 'Collaborating with architects']}, 'integration_manager': {'enabled': True, 'temperature': 0.4, 'description': 'Plan and oversee system integrations', 'responsibilities': ['Integration planning', 'Managing dependencies', 'Coordinating with development teams', 'Ensuring seamless integrations']}, 'deployment_engineer': {'enabled': True, 'temperature': 0.4, 'description': 'Execute deployment processes', 'responsibilities': ['Deployment scripting', 'Environment configuration', 'Executing deployment pipelines', 'Troubleshooting deployment issues']}, 'monitoring_specialist': {'enabled': True, 'temperature': 0.4, 'description': 'Monitor system performance post-deployment', 'responsibilities': ['Setting up monitoring tools', 'Performance tracking', 'Alerting and incident management', 'Reporting on system health']}}}}, 'config': {'current_workflow': 'implementation'}}
+2025-01-28 01:48:27,172 - app_logger - DEBUG - Theme 'dark' is already applied. Skipping re-application.
+2025-01-28 01:48:27,172 - app_logger - INFO - Icon theme set to 'dark'. (Implement as needed)
+2025-01-28 01:48:27,173 - app_logger - INFO - Theme 'dark' applied successfully to widget and application.
+2025-01-28 01:48:27,182 - app_logger - INFO - Chat history loaded.
+2025-01-28 01:48:27,192 - app_logger - ERROR - system_prompt_analysis_textedit is None, cannot setPlainText.
+2025-01-28 01:48:27,226 - app_logger - INFO - Chat log saved for chat_id 20250128014827
+2025-01-28 01:48:27,243 - app_logger - DEBUG - Theme 'dark' is already applied. Skipping re-application.
+2025-01-28 01:48:28,387 - app_logger - INFO - Icon theme set to 'dark'. (Implement as needed)
+2025-01-28 01:48:28,387 - app_logger - INFO - Theme 'dark' applied successfully to widget and application.
+2025-01-28 01:48:28,388 - app_logger - DEBUG - Theme applied successfully to page
+2025-01-28 01:48:28,395 - app_logger - DEBUG - Switched to page '4_chats' at index 1
+2025-01-28 01:48:28,395 - app_logger - DEBUG - Executed on_load for page '4_chats'
+2025-01-28 01:48:28,401 - app_logger - DEBUG - Saved '4_chats' as last page in state file
+2025-01-28 01:48:28,401 - app_logger - INFO - Successfully initialized page '4_chats'
+2025-01-28 01:48:28,401 - app_logger - INFO - Page '4_chats' loaded successfully.
+2025-01-28 01:48:36,680 - app_logger - INFO - Attempting to load page: Markdown_CSV_Extr
+2025-01-28 01:48:36,680 - app_logger - DEBUG - Creating new instance of page 'Markdown_CSV_Extr'
+2025-01-28 01:48:36,680 - app_logger - WARNING - QFrames directory 'c:\Users\Tobia\NodeX\frontend\DynamicMain\..\..\Pages\desktop\Layout\Page1\Components\QFrames' does not exist.
+2025-01-28 01:48:36,681 - app_logger - WARNING - Widgets directory 'c:\Users\Tobia\NodeX\frontend\DynamicMain\..\..\Pages\desktop\Layout\Page1\Components\Widgets' does not exist.
+2025-01-28 01:48:36,683 - app_logger - DEBUG - Page 'Page' initialized successfully.
+2025-01-28 01:48:36,683 - app_logger - DEBUG - Theme updated for page 'Page'.
+2025-01-28 01:48:36,683 - app_logger - DEBUG - Theme applied successfully to page
+2025-01-28 01:48:36,684 - app_logger - DEBUG - Switched to page 'Markdown_CSV_Extr' at index 2
+2025-01-28 01:48:36,684 - app_logger - DEBUG - Page 'Page' loaded.
+2025-01-28 01:48:36,684 - app_logger - DEBUG - Executed on_load for page 'Markdown_CSV_Extr'
+2025-01-28 01:48:36,690 - app_logger - DEBUG - Saved 'Markdown_CSV_Extr' as last page in state file
+2025-01-28 01:48:36,690 - app_logger - INFO - Successfully initialized page 'Markdown_CSV_Extr'
+2025-01-28 01:48:36,690 - app_logger - INFO - Page 'Markdown_CSV_Extr' loaded successfully.

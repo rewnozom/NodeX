@@ -1,6 +1,3 @@
-
-
-## Description
 Key Guidelines:
 1. The consolidation process should aim to reduce overall code duplication and improve modularity.
 2. When identifying opportunities for consolidation, ensure that the benefits outweigh the costs of refactoring and restructuring.
@@ -45,5 +42,3 @@ Key Guidelines:
 3. **Document Changes and Lessons Learned**
    - Document any changes made during consolidation, including modifications to code structure and dependencies.
    - Record lessons learned from the consolidation process for future reference.
-
----

@@ -1,4 +1,5 @@
-I need you to **convert** different GUIs into PySide6. This will help us leverage the power of PySide6 for our applications.
+I need you to **convert** different GUIs into PySide6.
+This will help us leverage the power of PySide6 for our applications.
 
 ## Rules & Goals
 1. **Goal & Scope**

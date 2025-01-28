@@ -1,8 +1,8 @@
 {
     "AGENT_ENABLED": true,
-    "CURRENT_AGENT": "crew",
+    "CURRENT_AGENT": "developer",
     "AGENT_CONFIG": {
-        "current_workflow": "implementation"
+        "current_workflow": "troubleshoot"
     },
     "AGENT_PROFILES": {
         "chat": {

@@ -1,5 +1,6 @@
 
-I want you to **merge** and **combine** all the functions that are currently duplicated across our codebase. This will help us improve modularity, reduce code duplication, and enhance readability.
+I want you to **merge** and **combine** all the functions that are currently duplicated across our codebase.
+This will help us improve modularity, reduce code duplication, and enhance readability.
 
 ## Rules & Goals
 1. **Goal & Scope**

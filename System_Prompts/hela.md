@@ -1,13 +1,13 @@
-## Skicka hela modulen
+## Send the entire module
 
-1. **Instruktion**  
-   Kombinera & uppdatera och skriv ut **hela** modulen (inklusive eventuella beroenden, klasser, funktioner).  
-   Alla delar ska finnas i en och samma kodsvar.
+1. **Instruction**
+Combine & update and print the **entire** module (including any dependencies, classes, functions).
+All parts should be in one and the same code response.
 
-2. **Regler**  
-   - Det ska vara komplett körbar kod, inga texter eller förklaringar.
-   - Du **Får inte vara lat och skriva `samma kod som förut` eller liknande, för att "inte behöva skicka ut hela modulen"**
-   - Indrag och radbrytningar måste bevaras.
+2. **Rules**
+- It should be complete executable code, no texts or explanations.
+- You **Must not be lazy and write `the same code as before` or similar, in order to "not have to send the entire module"**
+- Indents and line breaks must be preserved.
 
-3. **Output**  
-   Returnera hela modulen i sin helhet, redo att användas direkt. Ingen extra tillägg efter.
+3. **Output**
+Return the entire module in its entirety, ready to be used immediately. No extra additions after.

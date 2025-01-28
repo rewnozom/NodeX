@@ -314,12 +314,10 @@ NodeX is expanding with more advanced features and integrations. Here's a sneak 
 ---
 
 ## 🚀 **Future Considerations**
-- Visual scripting for custom nodes  
+- Finetune local llm for this specific framework
 - Plugin system  
-- Cloud deployment  
-- Multi-user collaboration  
-- Version control integration  
-
+- Visual scripting for custom nodes  
+- Cloud deployment
 ---
 
 # 🌌 **NodeX - AI Workflow Management System**
@@ -375,13 +373,6 @@ NodeX is a visual programming environment designed for creating and managing AI 
    - Check node connections.  
    - Verify input/output types match.  
    - Check execution order.  
-
----
-
-## 🙌 **Acknowledgments**
-- PySide6 for the GUI framework  
-- LM Studio for local LLM support  
-- Inspiration from open-source node editors  
 
 
 

@@ -17,23 +17,23 @@ def Keybind_Ctrl_1(main_window):
 
 def Keybind_Ctrl_2(main_window):
     """Öppnar "second page" sektionen i vänstermenyn."""
-    main_window.load_page("2_script_launcher_page")
+    main_window.load_page("2_Markdown_CSV_Extr")
 
 def Keybind_Ctrl_3(main_window):
     """Öppnar "third page" sektionen i vänstermenyn."""
-    main_window.load_page("3_chat")
+    main_window.load_page("3_Dashboard")
 
 def Keybind_Ctrl_4(main_window):
     """Öppnar "fourth page" sektionen i vänstermenyn."""
-    main_window.load_page("4_new_Page_Template")
+    main_window.load_page("4_script_launcher_page")
 
 def Keybind_Ctrl_5(main_window):
     """Öppnar "fifth page" sektionen i vänstermenyn."""
-    main_window.load_page("5_chat")
+    main_window.load_page("5_new_Page_Template")
 
 def Keybind_Ctrl_6(main_window):
     """Öppnar "sixth page" sektionen i vänstermenyn."""
-    main_window.load_page("5_new_Page_Template")
+    main_window.load_page("")
 
 def Keybind_Ctrl_7(main_window):
     """Öppnar "seventh page" sektionen i vänstermenyn."""

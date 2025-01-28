@@ -1,0 +1,33 @@
+[paths]
+base_dir = "C:/Users/Tobia/Downloads/Developments-main/dynamic_v0_05_01"
+output_dir = "C:/Users/Tobia/Downloads/Developments-main/dynamic_v0_05_01\\output"
+select_csv_reverse_file = ""
+select_csv_output_reverse_dir = ""
+select_markdown_reverse_file = ""
+select_markdown_output_reverse_dir = []
+path_style = "windows"
+
+[files]
+ignored_extensions = [ ".exe", ".dll",]
+ignored_files = [ "file_to_ignore.txt",]
+
+[directories]
+ignored_directories = [ "dir_to_ignore",]
+
+[file_specific]
+use_file_specific = false
+specific_files = [ "",]
+
+[output]
+markdown_file_prefix = "Full_Project"
+csv_file_prefix = "Detailed_Project"
+
+[metrics]
+size_unit = "KB"
+
+[presets]
+ai-agent = [ "ai_agent//welcome_phrase.json", "ai_agent//__init__.py", "ai_agent//agents//agent_factory.py", "ai_agent//agents//base_agent.py", "ai_agent//agents//chat_agent.py", "ai_agent//agents//crew_agent.py", "ai_agent//agents//developer_agent.py", "ai_agent//agents//__init__.py", "ai_agent//chat_manager//chat_manager.py", "ai_agent//chat_manager//__init__.py", "ai_agent//code_block_manager//code_block_manager.py", "ai_agent//code_block_manager//__init__.py", "ai_agent//config//agent_settings.json", "ai_agent//config//ai_config.py", "ai_agent//config//prompt_manager.py", "ai_agent//config//__init__.py", "ai_agent//generation_manager//auto_gen.md", "ai_agent//generation_manager//auto_gen.py", "ai_agent//generation_manager//__init__.py", "ai_agent//memory//memory_manager.py", "ai_agent//memory//__init__.py", "ai_agent//memory//embedding//embedding_manager.py", "ai_agent//memory//embedding//__init__.py", "ai_agent//ModelCache//.gitkeep", "ai_agent//ModelCache//__init__.py", "ai_agent//models//llm_models.py", "ai_agent//models//__init__.py", "ai_agent//services//ai_service.py", "ai_agent//services//data_service.py", "ai_agent//services//prompt_service.py", "ai_agent//services//__init__.py", "ai_agent//threads//worker_thread.py", "ai_agent//threads//__init__.py", "ai_agent//utils//code_extractor.py", "ai_agent//utils//helpers.py", "ai_agent//utils//key_bindings.py", "ai_agent//utils//token_counter.py", "ai_agent//utils//util_llm_extractor.py", "ai_agent//utils//__init__.py", "ai_agent//widgets//code_display.py", "ai_agent//widgets//__init__.py", "ai_agent//Workspace//__init__.py", "ai_agent//Workspace//chat_history//__init__.py",]
+agent = [ "ai_agent//agents//agent_factory.py", "ai_agent//agents//base_agent.py", "ai_agent//agents//chat_agent.py", "ai_agent//agents//crew_agent.py", "ai_agent//agents//developer_agent.py", "ai_agent//agents//__init__.py", "ai_agent//config//agent_settings.json", "ai_agent//config//ai_config.py", "ai_agent//config//prompt_manager.py", "ai_agent//config//__init__.py",]
+ai = [ "ai_agent//welcome_phrase.json", "ai_agent//__init__.py", "ai_agent//chat_manager//chat_manager.py", "ai_agent//chat_manager//__init__.py", "ai_agent//code_block_manager//code_block_manager.py", "ai_agent//code_block_manager//__init__.py", "ai_agent//config//agent_settings.json", "ai_agent//config//ai_config.py", "ai_agent//config//prompt_manager.py", "ai_agent//config//__init__.py", "ai_agent//generation_manager//auto_gen.md", "ai_agent//generation_manager//auto_gen.py", "ai_agent//generation_manager//__init__.py", "ai_agent//memory//memory_manager.py", "ai_agent//memory//__init__.py", "ai_agent//memory//embedding//embedding_manager.py", "ai_agent//memory//embedding//__init__.py", "ai_agent//ModelCache//.gitkeep", "ai_agent//ModelCache//__init__.py", "ai_agent//models//llm_models.py", "ai_agent//models//__init__.py", "ai_agent//services//ai_service.py", "ai_agent//services//data_service.py", "ai_agent//services//prompt_service.py", "ai_agent//services//__init__.py", "ai_agent//threads//worker_thread.py", "ai_agent//threads//__init__.py", "ai_agent//utils//code_extractor.py", "ai_agent//utils//helpers.py", "ai_agent//utils//key_bindings.py", "ai_agent//utils//token_counter.py", "ai_agent//utils//util_llm_extractor.py", "ai_agent//utils//__init__.py", "ai_agent//widgets//code_display.py", "ai_agent//widgets//__init__.py", "ai_agent//Workspace//__init__.py", "ai_agent//Workspace//chat_history//__init__.py",]
+chat = [ "frontend//Pages//desktop//Layout//1_chat//Page.py",]
+all = [ "ai_agent//welcome_phrase.json", "ai_agent//__init__.py", "ai_agent//agents//agent_factory.py", "ai_agent//agents//base_agent.py", "ai_agent//agents//chat_agent.py", "ai_agent//agents//crew_agent.py", "ai_agent//agents//developer_agent.py", "ai_agent//agents//__init__.py", "ai_agent//chat_manager//chat_manager.py", "ai_agent//chat_manager//__init__.py", "ai_agent//code_block_manager//code_block_manager.py", "ai_agent//code_block_manager//__init__.py", "ai_agent//config//agent_settings.json", "ai_agent//config//ai_config.py", "ai_agent//config//prompt_manager.py", "ai_agent//config//__init__.py", "ai_agent//generation_manager//auto_gen.md", "ai_agent//generation_manager//auto_gen.py", "ai_agent//generation_manager//__init__.py", "ai_agent//memory//memory_manager.py", "ai_agent//memory//__init__.py", "ai_agent//memory//embedding//embedding_manager.py", "ai_agent//memory//embedding//__init__.py", "ai_agent//ModelCache//.gitkeep", "ai_agent//ModelCache//__init__.py", "ai_agent//models//llm_models.py", "ai_agent//models//__init__.py", "ai_agent//services//ai_service.py", "ai_agent//services//data_service.py", "ai_agent//services//prompt_service.py", "ai_agent//services//__init__.py", "ai_agent//threads//worker_thread.py", "ai_agent//threads//__init__.py", "ai_agent//utils//code_extractor.py", "ai_agent//utils//helpers.py", "ai_agent//utils//key_bindings.py", "ai_agent//utils//token_counter.py", "ai_agent//utils//util_llm_extractor.py", "ai_agent//utils//__init__.py", "ai_agent//widgets//code_display.py", "ai_agent//widgets//__init__.py", "ai_agent//Workspace//__init__.py", "ai_agent//Workspace//chat_history//__init__.py", "frontend//Pages//desktop//Layout//1_chat//Page.py",]

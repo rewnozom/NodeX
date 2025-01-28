@@ -1,0 +1,13 @@
+# ./Config/setup/ai.txt
+groq
+langchain
+langchain-community
+langchain-anthropic
+langchain-google-genai
+langchain-groq
+langchain-huggingface
+langchain-openai
+litellm
+openai
+tiktoken
+crewai

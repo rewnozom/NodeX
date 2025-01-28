@@ -1,0 +1,38 @@
+[
+    {
+        "id": "0",
+        "name": "Search Field 1",
+        "items": [],
+        "swap_words": false,
+        "swap_sites": false,
+        "swap_words_before": "",
+        "swap_words_after": "",
+        "swap_sites_before": "",
+        "swap_sites_after": "",
+        "tags": []
+    },
+    {
+        "id": "1",
+        "name": "Search Field 2",
+        "items": [],
+        "swap_words": false,
+        "swap_sites": false,
+        "swap_words_before": "",
+        "swap_words_after": "",
+        "swap_sites_before": "",
+        "swap_sites_after": "",
+        "tags": []
+    },
+    {
+        "id": "2",
+        "name": "Search Field 3",
+        "items": [],
+        "swap_words": false,
+        "swap_sites": false,
+        "swap_words_before": "",
+        "swap_words_after": "",
+        "swap_sites_before": "",
+        "swap_sites_after": "",
+        "tags": []
+    }
+]

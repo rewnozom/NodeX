@@ -1,0 +1,312 @@
+Metadata-Version: 2.2
+Name: DynamicPyside6
+Version: 0.0.0
+Summary: Dynamic PySide6 Application with AI agent chat
+Author: TobiasRaanaes
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: groq
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: langchain-anthropic
+Requires-Dist: langchain-google-genai
+Requires-Dist: langchain-groq
+Requires-Dist: langchain-huggingface
+Requires-Dist: langchain-openai
+Requires-Dist: litellm
+Requires-Dist: openai
+Requires-Dist: tiktoken
+Requires-Dist: crewai
+Requires-Dist: PySide6==6.4.2
+Requires-Dist: customtkinter==5.2.2
+Requires-Dist: streamlit==1.35.0
+Requires-Dist: NodeGraphQt==0.6.37
+Requires-Dist: pyautogui==0.9.54
+Requires-Dist: pygetwindow==0.0.9
+Requires-Dist: tkinterdnd2==0.3.0
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: xlsxwriter
+Requires-Dist: pydantic
+Requires-Dist: fastapi==0.109.2
+Requires-Dist: requests
+Requires-Dist: httpx==0.27.0
+Requires-Dist: bs4==0.0.2
+Requires-Dist: python-dotenv
+Requires-Dist: black==24.10.0
+Requires-Dist: astor==0.8.1
+Requires-Dist: radon==6.0.1
+Requires-Dist: icecream==2.1.3
+Requires-Dist: watchdog
+Requires-Dist: colorama
+Requires-Dist: markdown-it-py
+Requires-Dist: markdown==3.7
+Requires-Dist: docx==0.2.4
+Requires-Dist: pygments==2.18.0
+Requires-Dist: pyperclip==1.9.0
+Requires-Dist: toml==0.10.2
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Dynamic GUI Framework with PySide6
+
+## > **CURRENTLY WORKING ON:** << ##
+
+- Fix the latest bug that the agents are always: Disabled in GUI & Light mode freezes the gui
+- Enhance the system's integration of memory
+- Fix minor visual bugs in the chat with "Temperature" + "Max Tokens"
+
+## > **Future plans:** << ##
+
+- Rework the GUI for a more user-friendly experience
+- Complete my "Grid-Node Workflow-Management (NodeX)"
+- Integrate NodeX Workflow-Management with the AI-Chat & Agents for controlling any agent
+
+
+---
+---
+
+
+# -----  DynamicPySide6   ------# 
+A modular GUI framework offering dynamic page management and automatic component loading. The framework is built with PySide6 and follows design principles for creating scalable and maintainable desktop applications.
+
+## Key Components & Features
+
+- Dynamic page loading with automatic module detection and management
+- Flexible component management
+- Flexible theme management with support for light/dark modes
+- Advanced logging and error handling for robust application performance
+- Component-based architecture with navigation, header, and footer
+- Responsive design supporting both desktop and mobile interfaces
+- Reusable code structure
+
+
+# -----  AI-Chat + Agent   ------# 
+
+This project is an AI-powered chat agent system that enables interactive conversations and assists with various tasks such as code generation, analysis, documentation, and more. The system is designed to be modular and extensible, allowing for easy integration of new features and capabilities.
+
+
+## Project Structure
+
+The project is organized into the following main components:
+
+- **ai_agent**: Contains the core logic for the AI agents, including agent factories, base classes, and specialized agents.
+- **chat_manager**: Handles chat-related functionalities such as loading and saving chat history, managing chat sessions, and processing user messages.
+- **code_block_manager**: Provides utilities for extracting, analyzing, and managing code blocks from various sources.
+- **config**: Contains configuration files and classes for managing application settings and AI model configurations.
+- **memory**: Implements memory management functionalities, including saving and loading conversation history and additional context.
+- **models**: Defines the available AI models and provides functions for loading and interacting with them.
+- **services**: Encapsulates high-level services for AI model interaction, data handling, and prompt management.
+- **utils**: Contains utility functions and classes for various tasks such as code extraction, file handling, and UI-related operations.
+- **widgets**: Implements custom UI widgets for displaying code blocks and managing user interactions.
+
+
+## Key Features
+
+- **Multi-agent Architecture**: The system supports multiple specialized agents, including a standard chat agent and a developer agent for software development workflows.
+
+> - **Standard Chat Agent**: This agent is responsible for handling general conversation and providing basic assistance to users. It utilizes natural language processing and machine learning techniques to understand user queries and generate appropriate responses.
+
+> - **Developer Agent**: The developer agent is specifically designed to aid in software development workflows. It can assist with tasks such as code generation, analysis, documentation, and troubleshooting. This agent has a deep understanding of programming concepts and best practices.
+
+- **Easy Prompt Viewer**: View your stored system prompts with a markdown window inside the GUI, and edit them directly from there.
+
+- **Code Block Extraction**: The system can extract and analyze code blocks from various input sources, including text and files.
+
+- **File Handling**: Users can upload, view, and manage files within the application's workspace.
+
+- **Dynamic UI**: The user interface is responsive, adapts to different screen sizes, and provides a seamless experience on both desktop and mobile devices. ("Works on Android, not sure yet about iPhone. You need to manually enable the phone setting first.")
+
+---
+
+## Install the separate requirement files in `./Config/setup/` using:
+
+```bash
+python setup.py install
+```
+
+- `ai.txt`: AI-related dependencies
+- `gui.txt`: GUI and visualization
+- `data.txt`: Data handling and analysis
+- `web.txt`: Web and API-related
+- `dev.txt`: Development tools
+- `text.txt`: Text processing
+
+Run `pip install -e .` to update the installation.
+
+---
+
+## Installation
+
+1. Install the package:
+```bash
+python setup.py install
+```
+
+The installation process will automatically:
+- Create a virtual environment named 'env'
+- Install all required dependencies
+- Provide activation commands for your specific platform
+
+2. Activate the virtual environment:
+
+For Linux/Unix:
+```bash
+source env/bin/activate
+python dynamic_main_ref.py
+```
+
+For Windows PowerShell:
+```powershell
+.\env\Scripts\Activate.ps1
+python dynamic_main_ref.py
+```
+
+For Windows CMD:
+```cmd
+.\env\Scripts\activate.bat
+python dynamic_main_ref.py
+```
+
+For development installation:
+```bash
+python setup.py develop
+```
+
+---
+
+> - python -m pip install --upgrade pip setuptools
+> - pip install -e .
+
+
+---
+
+
+# Structure
+```markdown
+dynamic_v0_04_87/
+├── ai_agent/
+│   ├── agents/
+│   ├── chat_manager/
+│   ├── code_block_manager/
+│   ├── config/
+│   ├── generation_manager/
+│   ├── memory/
+│   │   └── embedding/
+│   ├── ModelCache/
+│   ├── models/
+│   ├── services/
+│   ├── System_Prompts/
+│   ├── threads/
+│   ├── utils/
+│   ├── widgets/
+│   └── Workspace/
+│       └── chat_history/
+├── backends/
+│   └── workers/
+├── Config/
+│   ├── AppConfig/
+│   ├── DeployConfig/
+│   ├── EnvConfig/
+│   ├── phone_config/
+│   ├── setup/
+│   └── TestConfig/
+├── Example/
+├── frontend/
+│   ├── _frames_/
+│   │   ├── _chat/
+│   │   │   └── backup/
+│   │   │       └── chat/
+│   │   ├── _code_block_extractor/
+│   │   ├── _GitFrame/
+│   │   ├── _helper/
+│   │   ├── _InputFrame/
+│   │   ├── _md_csv_ex/
+│   │   ├── _ResultsFrame/
+│   │   ├── _unsorted_/
+│   │   ├── _unsure_/
+│   │   └── _Utils/
+│   ├── _layout/
+│   ├── base/
+│   ├── Components/
+│   │   ├── default/
+│   │   └── Navigation/
+│   ├── DynamicMain/
+│   ├── Pages/
+│   │   ├── android/
+│   │   │   └── Layout/
+│   │   │       ├── 1_chat/
+│   │   │       ├── 2_script_launcher_page/
+│   │   │       ├── 3_new_Page_Template/
+│   │   │       └── _markdown_csv_extractor/
+│   │   └── desktop/
+│   │       └── Layout/
+│   │           ├── 1_chat/
+│   │           ├── 2_script_launcher_page/
+│   │           └── 3_new_Page_Template/
+│   └── Widgets/
+│       └── wid/
+├── log/
+├── logs/
+├── Public/
+│   ├── Assets/
+│   │   ├── Fonts/
+│   │   ├── Icons/
+│   │   └── Images/
+│   ├── Exports/
+│   ├── Media/
+│   └── Static/
+├── Scripts/
+├── Styles/
+│   └── theme/
+│       ├── dark/
+│       └── light/
+├── System_Prompts/
+├── Utils/
+│   ├── Enums/
+│   ├── Helpers/
+│   ├── keybindnings/
+│   ├── llm_util/
+│   └── Paths/
+└── Workspace/
+    └── chat_history/
+```
+
+
+
+---
+
+> choose logo 
+![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/-NodeX-.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/000ccacd-be34-43d8-a0aa-37da26baf847.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/00e89709-bc94-41b1-b308-b85a31989e5b.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/0fe14fdb-d662-4933-b0a9-d6517a2e834b.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/1c3de5e4-e1f1-4d29-a52d-459a504f717f.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/3d49c2ac-6883-48af-9366-d32c4f17e014.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/5a4c298a-a69d-4caa-9c79-21da4a6483d3.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/5e787844-636c-4ea3-a4cd-00062faff1ce.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/5ff537d3-2b40-4c37-afe8-bdbcefb66a85.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/6beb36ed-d9d7-4e3a-a6a7-ceb66650fad8.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/6c760480-c6f2-4b26-933c-ff93cddbf2da.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/7b2ba444-558b-4ccd-bb73-bbcd3e8fce5c.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/7f460187-c47a-4bd5-a67d-17364016ee3f.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/43a8f78e-b701-4750-a83c-b338c0a8ec02.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/054f310d-68f4-4531-8817-e36db0dd712c.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/66b4eff6-e6b2-42d7-88e5-fe608ef6587b.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/81e871cc-8fec-49b6-92c8-fd78bee839b9.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/99da488c-44ce-4aa7-976d-99016b24b90e.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/0507aa84-4934-4b08-b757-aae631c68cfa.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/905cbb0d-66dd-4375-974e-c0bd45deb12c.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/8424fc16-b75b-42dd-9d8f-3ef7a48e4833.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/58318ebd-fbd5-45db-b2ae-f0e6ee20c2ba.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/370380b2-4dee-43c6-867e-07649e1d23d9.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/999883c1-9c91-48aa-96d5-d39145c2c6fa.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/a52f755b-ce29-4374-991c-80bf0a53be97.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/b714f065-7875-4c15-8fd8-93b191d68666.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/b787ba8e-e515-4235-bd41-45ebd62053f8.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/ba319a3d-904e-466d-929d-bb7b1ef7131b.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/c18f2f59-abd5-49b3-b9cc-1e8b8510da6f.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/c95b584a-c262-457f-9634-c1a2e38719f6.png) ![alt text](<Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/cac87a89-4d82-46d1-be94-a068332bc76c (1).png>) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/cac87a89-4d82-46d1-be94-a068332bc76c.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/cb486257-16fe-4b0d-bf33-ef2093cf4ee0.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/ceb0df01-b957-430c-bfe1-c2476089c6ae.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/cff13776-743e-407a-b512-754e8d437286.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/d632ba90-999f-4b62-ac3a-86507866d7a2.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/f07d9b19-7ba5-460e-a8d9-ea8c8574dafa.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/f80a9adb-5a18-4cf4-979e-cba163f96308.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/fdcd1445-5794-4cb0-a469-774dc03d7f38.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/NodeX_1_Otl.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/NodeX_1_t_S.png) ![alt text](Public/Assets/Images/CHOOSE_WHITCH_ONE_TO_USE_AS_LOGO/NodeX_1_t_V.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

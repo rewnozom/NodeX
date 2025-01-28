@@ -1,0 +1,290 @@
+README.md
+setup.py
+Config/__init__.py
+Config/AppConfig/SettingWidgetGroup.py
+Config/AppConfig/__init__.py
+Config/AppConfig/config.py
+Config/AppConfig/icon_config.py
+Config/AppConfig/settings_data.py
+Config/AppConfig/settings_manager.py
+Config/DeployConfig/__init__.py
+Config/EnvConfig/__init__.py
+Config/TestConfig/__init__.py
+Config/phone_config/__init__.py
+Config/phone_config/phone_config.py
+Config/phone_config/phone_functions.py
+Config/setup/__init__.py
+DynamicPyside6.egg-info/PKG-INFO
+DynamicPyside6.egg-info/SOURCES.txt
+DynamicPyside6.egg-info/dependency_links.txt
+DynamicPyside6.egg-info/entry_points.txt
+DynamicPyside6.egg-info/requires.txt
+DynamicPyside6.egg-info/top_level.txt
+Example/__init__.py
+Public/__init__.py
+Public/Assets/__init__.py
+Public/Assets/Fonts/__init__.py
+Public/Assets/Icons/__init__.py
+Public/Assets/Images/__init__.py
+Public/Exports/__init__.py
+Public/Media/__init__.py
+Public/Static/__init__.py
+Scripts/__init__.py
+Scripts/_auto_requirements_.py
+Scripts/create_init_to_all_directories.py
+Scripts/directory-creator.py
+Scripts/tools.py
+Styles/__init__.py
+Styles/code_block_style.py
+Styles/theme_manager.py
+Styles/vscode_style.py
+Styles/theme/__init__.py
+Styles/theme/dark/__init__.py
+Styles/theme/light/__init__.py
+System_Prompts/__init__.py
+Utils/__init__.py
+Utils/llm_extractor.py
+Utils/loader.py
+Utils/Enums/__init__.py
+Utils/Enums/enums.py
+Utils/Helpers/__init__.py
+Utils/Paths/__init__.py
+Utils/Paths/path_helper.py
+Utils/Paths/paths.py
+Utils/keybindnings/__init__.py
+Utils/keybindnings/keybindnings.py
+Utils/llm_util/__init__.py
+Utils/llm_util/llm_sorted_func.py
+Workspace/__init__.py
+Workspace/chat_history/__init__.py
+ai_agent/__init__.py
+ai_agent - kopia/__init__.py
+ai_agent - kopia/ModelCache/__init__.py
+ai_agent - kopia/Workspace/__init__.py
+ai_agent - kopia/Workspace/chat_history/__init__.py
+ai_agent - kopia/agents/__init__.py
+ai_agent - kopia/agents/agent_factory copy 2.py
+ai_agent - kopia/agents/agent_factory copy.py
+ai_agent - kopia/agents/agent_factory.py
+ai_agent - kopia/agents/base_agent copy.py
+ai_agent - kopia/agents/base_agent.py
+ai_agent - kopia/agents/chat_agent copy.py
+ai_agent - kopia/agents/chat_agent.py
+ai_agent - kopia/agents/crew_agent copy.py
+ai_agent - kopia/agents/crew_agent.py
+ai_agent - kopia/agents/developer_agent copy.py
+ai_agent - kopia/agents/developer_agent.py
+ai_agent - kopia/chat_manager/__init__.py
+ai_agent - kopia/chat_manager/chat_manager.py
+ai_agent - kopia/code_block_manager/__init__.py
+ai_agent - kopia/code_block_manager/code_block_manager.py
+ai_agent - kopia/config/__init__.py
+ai_agent - kopia/config/ai_config.py
+ai_agent - kopia/config/prompt_manager.py
+ai_agent - kopia/generation_manager/__init__.py
+ai_agent - kopia/generation_manager/auto_gen.py
+ai_agent - kopia/memory/__init__.py
+ai_agent - kopia/memory/memory_manager.py
+ai_agent - kopia/memory/embedding/__init__.py
+ai_agent - kopia/memory/embedding/embedding_manager.py
+ai_agent - kopia/models/__init__.py
+ai_agent - kopia/models/llm_models.py
+ai_agent - kopia/models/models.py
+ai_agent - kopia/services/__init__.py
+ai_agent - kopia/services/ai_service.py
+ai_agent - kopia/services/data_service.py
+ai_agent - kopia/services/prompt_service.py
+ai_agent - kopia/threads/__init__.py
+ai_agent - kopia/threads/worker_thread.py
+ai_agent - kopia/utils/__init__.py
+ai_agent - kopia/utils/code_extractor.py
+ai_agent - kopia/utils/helpers.py
+ai_agent - kopia/utils/key_bindings.py
+ai_agent - kopia/utils/token_counter.py
+ai_agent - kopia/utils/util_llm_extractor.py
+ai_agent - kopia/widgets/__init__.py
+ai_agent - kopia/widgets/code_display.py
+ai_agent/ModelCache/__init__.py
+ai_agent/Workspace/__init__.py
+ai_agent/Workspace/chat_history/__init__.py
+ai_agent/agents/__init__.py
+ai_agent/agents/agent_factory.py
+ai_agent/agents/base_agent.py
+ai_agent/agents/chat_agent.py
+ai_agent/agents/crew_agent.py
+ai_agent/agents/developer_agent.py
+ai_agent/chat_manager/__init__.py
+ai_agent/chat_manager/chat_manager.py
+ai_agent/code_block_manager/__init__.py
+ai_agent/code_block_manager/code_block_manager.py
+ai_agent/config/__init__.py
+ai_agent/config/ai_config.py
+ai_agent/config/prompt_manager.py
+ai_agent/generation_manager/__init__.py
+ai_agent/generation_manager/auto_gen.py
+ai_agent/memory/__init__.py
+ai_agent/memory/memory_manager.py
+ai_agent/memory/embedding/__init__.py
+ai_agent/memory/embedding/embedding_manager.py
+ai_agent/models/__init__.py
+ai_agent/models/llm_models.py
+ai_agent/services/__init__.py
+ai_agent/services/ai_service.py
+ai_agent/services/data_service.py
+ai_agent/services/prompt_service.py
+ai_agent/threads/__init__.py
+ai_agent/threads/worker_thread.py
+ai_agent/utils/__init__.py
+ai_agent/utils/code_extractor.py
+ai_agent/utils/helpers.py
+ai_agent/utils/key_bindings.py
+ai_agent/utils/token_counter.py
+ai_agent/utils/util_llm_extractor.py
+ai_agent/widgets/__init__.py
+ai_agent/widgets/code_display.py
+backends/Extractorz.py
+backends/__init__.py
+backends/_controller.py
+backends/_full_backend_.py
+backends/workers/__init__.py
+backends/workers/extraction_manager.py
+backends/workers/extraction_worker.py
+frontend/__init__.py
+frontend/loader.py
+frontend/Components/__init__.py
+frontend/Components/Navigation/__init__.py
+frontend/Components/Navigation/navigation_left_menu.py
+frontend/Components/Navigation/navigation_phone.py
+frontend/Components/default/__init__.py
+frontend/Components/default/footer.py
+frontend/Components/default/header.py
+frontend/DynamicMain/__init__.py
+frontend/DynamicMain/base_pages.py
+frontend/DynamicMain/error_handler.py
+frontend/DynamicMain/icon_manager.py
+frontend/DynamicMain/keybindings.py
+frontend/DynamicMain/logger_setup.py
+frontend/DynamicMain/page_manager.py
+frontend/DynamicMain/page_state_handler.py
+frontend/DynamicMain/ui_setup.py
+frontend/Pages/__init__.py
+frontend/Pages/android/__init__.py
+frontend/Pages/android/Layout/__init__.py
+frontend/Pages/android/Layout/1_chat/Page.py
+frontend/Pages/android/Layout/1_chat/__init__.py
+frontend/Pages/android/Layout/2_script_launcher_page/Page.py
+frontend/Pages/android/Layout/2_script_launcher_page/__init__.py
+frontend/Pages/android/Layout/3_new_Page_Template/Page.py
+frontend/Pages/android/Layout/3_new_Page_Template/__init__.py
+frontend/Pages/android/Layout/_markdown_csv_extractor/GUI_Constants_and_Settings.py
+frontend/Pages/android/Layout/_markdown_csv_extractor/Phone_Touch_and_Scroll.py
+frontend/Pages/android/Layout/_markdown_csv_extractor/Theme.py
+frontend/Pages/android/Layout/_markdown_csv_extractor/__init__.py
+frontend/Pages/android/Layout/_markdown_csv_extractor/components/AppearanceSection.py
+frontend/Pages/android/Layout/_markdown_csv_extractor/components/BottomControls.py
+frontend/Pages/android/Layout/_markdown_csv_extractor/components/CheckboxFrame.py
+frontend/Pages/android/Layout/_markdown_csv_extractor/components/FileSpecificSection copy.py
+frontend/Pages/android/Layout/_markdown_csv_extractor/components/FileSpecificSection.py
+frontend/Pages/android/Layout/_markdown_csv_extractor/components/HeaderWidget.py
+frontend/Pages/android/Layout/_markdown_csv_extractor/components/SettingsSection.py
+frontend/Pages/android/Layout/_markdown_csv_extractor/components/__init__.py
+frontend/Pages/desktop/__init__.py
+frontend/Pages/desktop/Layout/__init__.py
+frontend/Pages/desktop/Layout/1_chat/Page.py
+frontend/Pages/desktop/Layout/1_chat/__init__.py
+frontend/Pages/desktop/Layout/2_script_launcher_page/Page.py
+frontend/Pages/desktop/Layout/2_script_launcher_page/__init__.py
+frontend/Pages/desktop/Layout/3_new_Page_Template/Page.py
+frontend/Pages/desktop/Layout/3_new_Page_Template/__init__.py
+frontend/Widgets/__init__.py
+frontend/Widgets/chat_history_tab.py
+frontend/Widgets/code_analysis_tool.py
+frontend/Widgets/controls_widget.py
+frontend/Widgets/file_management_tab.py
+frontend/Widgets/processing_tab.py
+frontend/Widgets/user_input_widget.py
+frontend/Widgets/wid/__init__.py
+frontend/Widgets/wid/custom_buttons.py
+frontend/Widgets/wid/custom_list_widget.py
+frontend/Widgets/wid/custom_progress_bar.py
+frontend/Widgets/wid/custom_slider.py
+frontend/Widgets/wid/scrollable_frame.py
+frontend/Widgets/wid/theme_combo_box.py
+frontend/_frames_/__init__.py
+frontend/_frames_/_GitFrame/GitFrame.py
+frontend/_frames_/_GitFrame/__init__.py
+frontend/_frames_/_InputFrame/InputFrame.py
+frontend/_frames_/_InputFrame/__init__.py
+frontend/_frames_/_ResultsFrame/ResultsFrame.py
+frontend/_frames_/_ResultsFrame/__init__.py
+frontend/_frames_/_Utils/FileUtils.py
+frontend/_frames_/_Utils/__init__.py
+frontend/_frames_/_chat/__init__.py
+frontend/_frames_/_chat/ai_chats_files_processing copy 10.py
+frontend/_frames_/_chat/ai_chats_files_processing copy 2.py
+frontend/_frames_/_chat/ai_chats_files_processing copy 3.py
+frontend/_frames_/_chat/ai_chats_files_processing copy 4.py
+frontend/_frames_/_chat/ai_chats_files_processing copy 5.py
+frontend/_frames_/_chat/ai_chats_files_processing copy 6.py
+frontend/_frames_/_chat/ai_chats_files_processing copy 7.py
+frontend/_frames_/_chat/ai_chats_files_processing copy 8.py
+frontend/_frames_/_chat/ai_chats_files_processing copy 9.py
+frontend/_frames_/_chat/ai_chats_files_processing copy.py
+frontend/_frames_/_chat/ai_chats_files_processing.py
+frontend/_frames_/_chat/ai_output_user_input copy 2.py
+frontend/_frames_/_chat/ai_output_user_input copy.py
+frontend/_frames_/_chat/ai_output_user_input.py
+frontend/_frames_/_chat/aichat_setting_header copy.py
+frontend/_frames_/_chat/aichat_setting_header.py
+frontend/_frames_/_chat/code_analysis copy 2.py
+frontend/_frames_/_chat/code_analysis copy 3.py
+frontend/_frames_/_chat/code_analysis copy 4.py
+frontend/_frames_/_chat/code_analysis copy.py
+frontend/_frames_/_chat/code_analysis.py
+frontend/_frames_/_chat/code_analysis0.py
+frontend/_frames_/_chat/code_analysis00.py
+frontend/_frames_/_chat/backup/__init__.py
+frontend/_frames_/_chat/backup/chat/__init__.py
+frontend/_frames_/_chat/backup/chat/ai_chats_files_processing.py
+frontend/_frames_/_chat/backup/chat/ai_output_user_input.py
+frontend/_frames_/_chat/backup/chat/aichat_setting_header.py
+frontend/_frames_/_chat/backup/chat/code_analysis.py
+frontend/_frames_/_code_block_extractor/__init__.py
+frontend/_frames_/_code_block_extractor/git_frame.py
+frontend/_frames_/_code_block_extractor/input_frame.py
+frontend/_frames_/_code_block_extractor/results_frame.py
+frontend/_frames_/_helper/CodeAnalysis.py
+frontend/_frames_/_helper/CodeBlockExtractor.py
+frontend/_frames_/_helper/GitManager.py
+frontend/_frames_/_helper/Worker.py
+frontend/_frames_/_helper/__init__.py
+frontend/_frames_/_helper/workers.py
+frontend/_frames_/_md_csv_ex/__init__.py
+frontend/_frames_/_settings/__init__.py
+frontend/_frames_/_settings/settings_frame.py
+frontend/_frames_/_unsorted_/__init__.py
+frontend/_frames_/_unsure_/__init__.py
+frontend/_frames_/_unsure_/checkbox_frame.py
+frontend/_frames_/_unsure_/entry_run_frame.py
+frontend/_frames_/_unsure_/radio_buttons_frame.py
+frontend/_frames_/_unsure_/scrollable_textbox_frame.py
+frontend/_frames_/_unsure_/settings_tab.py
+frontend/_frames_/_unsure_/sidebar.py
+frontend/_frames_/_unsure_/sliders_progress_frame.py
+frontend/_layout/__init__.py
+frontend/_layout/layout_manager.py
+frontend/base/__init__.py
+frontend/base/base_page.py
+log/__init__.py
+log/logger.py
+log/message_collector.py
+logs/__init__.py
+tests/test_base_agent.py
+tests/test_chat_agent.py
+tests/test_code_extractor.py
+tests/test_config.py
+tests/test_crew_agent.py
+tests/test_developer_agent.py
+tests/test_embedding_manager.py
+tests/test_memory_manager.py
+tests/test_utilities.py

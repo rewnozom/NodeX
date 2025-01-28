@@ -1,0 +1,6 @@
+# ./Config/setup/data.txt
+pandas
+numpy
+openpyxl
+xlsxwriter
+pydantic

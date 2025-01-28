@@ -1,0 +1,81 @@
+"""
+ai_agent/config/agents.yml - Agent configurations
+"""
+
+agents:
+  developer:
+    model_name: lmstudio
+    temperature: 0.1
+    max_tokens: 4000
+    stop_sequences: ["<END>"]
+    timeout: 60
+    test_driven: true
+    auto_fix: true
+
+  judge:
+    model_name: lmstudio
+    temperature: 0.0
+    max_tokens: 2000
+    stop_sequences: ["<END>"]
+    timeout: 30
+    quality_thresholds:
+      code_coverage: 0.8
+      test_coverage: 0.9
+      complexity: 10
+      duplication: 0.1
+
+  architect:
+    model_name: lmstudio  
+    temperature: 0.2
+    max_tokens: 4000
+    stop_sequences: ["<END>"]
+    timeout: 60
+
+  reviewer:
+    model_name: lmstudio
+    temperature: 0.1 
+    max_tokens: 2000
+    stop_sequences: ["<END>"]
+    timeout: 30
+
+"""
+ai_agent/config/testing.yml - Testing configuration
+"""
+
+testing:
+  timeout: 30
+  max_retries: 3
+  coverage_threshold: 0.8
+  performance_threshold: 0.9
+  test_runners:
+    python:
+      executor: python
+      work_dir: work/python
+    terminal:
+      executor: terminal
+      work_dir: work/shell
+    docker:
+      executor: docker
+      work_dir: work/docker
+      image: python:3.9
+      container_name: ai-agent-test
+
+"""
+ai_agent/config/system.yml - System configuration  
+"""
+
+system:
+  work_dir: work
+  log_level: INFO
+  max_memory: 1024
+  max_processes: 4
+  plugins_dir: plugins
+  temp_dir: temp
+  monitoring:
+    enabled: true
+    interval: 1.0
+    history_size: 100
+  logging:
+    file: logs/ai_agent.log
+    max_size: 10MB
+    backup_count: 5

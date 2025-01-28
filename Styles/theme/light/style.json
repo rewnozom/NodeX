@@ -1,0 +1,852 @@
+{
+    "__metadata__": {
+        "file path": "./shared/themes/dark/style.json"
+    },
+    "BASE": {
+        "primary_color": "#2B2B2B",
+        "secondary_color": "#3C3C3C",
+        "tertiary_color": "#4A4A4A",
+        "text_color": "#E0E0E0",
+        "subtext_color": "#B0B0B0",
+        "accent_color": "#FF3E3E",
+        "accent_hover_color": "#FF6B6B",
+        "accent_active_color": "#CC3232"
+    },
+    "QWidget_style": {
+        "background_color": "#2B2B2B",
+        "color": "#E0E0E0",
+        "font_family": "Arial",
+        "font_size": "14px"
+    },
+    "QLabel_style": {
+        "color": "#E0E0E0",
+        "font_size": "14px"
+    },
+    "QMainWindow_style": {
+        "background_gradient": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 1,
+            "y2": 0,
+            "stops": {
+                "0": "#2B2B2B",
+                "0.5": "#4A4A4A",
+                "1": "#2B2B2B"
+            }
+        },
+        "color": "#E0E0E0",
+        "font_family": "Arial",
+        "font_size": "14px",
+        "box_shadow": "0px 4px 8px rgba(0, 0, 0, 0.3)"
+    },
+    "centralWidget_style": {
+        "background_color": "transparent",
+        "color": "#E0E0E0",
+        "font_family": "Arial",
+        "font_size": "14px"
+    },
+    "BUTTON": {
+        "button_background_gradient_start": "#FF3E3E",
+        "button_background_gradient_end": "#CC3232",
+        "button_text_color": "#FFFFFF",
+        "button_hover_background_gradient_start": "#FF6B6B",
+        "button_hover_background_gradient_end": "#E65C5C",
+        "button_active_background_gradient_start": "#CC3232",
+        "button_active_background_gradient_end": "#A82626",
+        "button_disabled_background_color": "#7D7D7D",
+        "button_disabled_text_color": "#A0A0A0"
+    },
+    "QPushButton_style": {
+        "background_gradient": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 1,
+            "stops": {
+                "0": "#FF3E3E",
+                "1": "#CC3232"
+            }
+        },
+        "color": "#FFFFFF",
+        "border": "none",
+        "border_radius": "8px",
+        "padding": "10px 20px",
+        "font_size": "14px",
+        "hover": {
+            "background_gradient": {
+                "x1": 0,
+                "y1": 0,
+                "x2": 0,
+                "y2": 1,
+                "stops": {
+                    "0": "#FF6B6B",
+                    "1": "#E65C5C"
+                }
+            }
+        },
+        "pressed": {
+            "background_gradient": {
+                "x1": 0,
+                "y1": 0,
+                "x2": 0,
+                "y2": 1,
+                "stops": {
+                    "0": "#CC3232",
+                    "1": "#A82626"
+                }
+            }
+        },
+        "disabled_background_color": "#7D7D7D",
+        "disabled_text_color": "#A0A0A0",
+        "box_shadow": "0px 4px 6px rgba(0, 0, 0, 0.3)"
+    },
+    "QDialogButtonBox_style": {
+        "QPushButton": {
+            "background_gradient": {
+                "x1": 0,
+                "y1": 0,
+                "x2": 0,
+                "y2": 1,
+                "stops": {
+                    "0": "#FF3E3E",
+                    "1": "#CC3232"
+                }
+            },
+            "color": "#FFFFFF",
+            "border": "none",
+            "border_radius": "8px",
+            "padding": "8px 16px",
+            "font_size": "14px",
+            "hover": {
+                "background_gradient": {
+                    "x1": 0,
+                    "y1": 0,
+                    "x2": 0,
+                    "y2": 1,
+                    "stops": {
+                        "0": "#FF6B6B",
+                        "1": "#E65C5C"
+                    }
+                }
+            },
+            "pressed": {
+                "background_gradient": {
+                    "x1": 0,
+                    "y1": 0,
+                    "x2": 0,
+                    "y2": 1,
+                    "stops": {
+                        "0": "#CC3232",
+                        "1": "#A82626"
+                    }
+                }
+            },
+            "disabled_background_color": "#7D7D7D",
+            "disabled_text_color": "#A0A0A0",
+            "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+        }
+    },
+    "QRadioButton_style": {
+        "color": "#E0E0E0",
+        "font_size": "14px",
+        "spacing": "5px",
+        "indicator": {
+            "border": "1px solid #6B6B6B",
+            "width": "14px",
+            "height": "14px",
+            "border-radius": "7px",
+            "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)",
+            "hover": {
+                "border": "1px solid #FF6B6B"
+            },
+            "unchecked": {
+                "background-color": "#2B2B2B"
+            },
+            "checked": {
+                "background-color": "#FF3E3E",
+                "border": "1px solid #FF3E3E"
+            }
+        }
+    },
+    "QCheckBox_style": {
+        "color": "#E0E0E0",
+        "font_size": "14px",
+        "spacing": "5px",
+        "indicator": {
+            "border": "1px solid #6B6B6B",
+            "width": "14px",
+            "height": "14px",
+            "border-radius": "4px",
+            "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)",
+            "hover": {
+                "border": "1px solid #FF6B6B"
+            },
+            "unchecked": {
+                "background-color": "#2B2B2B"
+            },
+            "checked": {
+                "background-color": "#FF3E3E",
+                "border": "1px solid #FF3E3E"
+            }
+        }
+    },
+    "QToolButton_style": {
+        "background_color": "#4A4A4A",
+        "color": "#FFFFFF",
+        "border": "none",
+        "padding": "5px",
+        "border_radius": "4px",
+        "hover": {
+            "background_color": "#5A5A5A"
+        },
+        "pressed": {
+            "background_color": "#686868"
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "COMPONENT_DIMENSIONS": {
+        "appbar_height": "64px",
+        "sidebar_width": "250px",
+        "card_header_padding": "16px",
+        "card_content_padding": "16px",
+        "dialog_border_radius": "8px",
+        "chip_height": "32px",
+        "chip_padding": "0 12px"
+    },
+    "QListWidgetItem_style": {
+        "padding": "4px",
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "hover_background_color": "#4A4A4A",
+        "selected_background_color": "#4A90E2",
+        "selected_color": "#FFFFFF"
+    },
+    "QTreeWidgetItem_style": {
+        "padding": "4px",
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "hover_background_color": "#4A4A4A",
+        "selected_background_color": "#4A90E2",
+        "selected_color": "#FFFFFF"
+    },
+    "QLCDNumber_style": {
+        "background_color": "#2B2B2B",
+        "color": "#FFFFFF",
+        "border": "1px solid #6B6B6B",
+        "border_radius": "8px",
+        "padding": "8px",
+        "font_size": "14px",
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "INPUT": {
+        "input_background_color": "#3C3C3C",
+        "input_text_color": "#FFFFFF",
+        "input_placeholder_color": "#9E9E9E",
+        "input_border_color": "#6B6B6B",
+        "input_focus_border_color": "#FF3E3E"
+    },
+    "QLineEdit_style": {
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "border": "1px solid #6B6B6B",
+        "border_radius": "8px",
+        "padding": "8px 12px",
+        "font_size": "14px",
+        "focus": {
+            "border": "1px solid #FF3E3E"
+        },
+        "placeholder_color": "#9E9E9E",
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QSpinBox_style": {
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "border": "1px solid #6B6B6B",
+        "border_radius": "8px",
+        "padding": "4px 8px",
+        "font_size": "14px",
+        "min_width": "80px",
+        "selection-background-color": "#4A90E2", 
+        "up_down_buttons": {
+            "background_color": "#4A4A4A",
+            "width": "20px",
+            "height": "50%",
+            "border": "none",
+            "hover": {
+                "background_color": "#5A5A5A"
+            },
+            "pressed": {
+                "background_color": "#686868"
+            },
+            "arrow_image": ":/icons/arrow.png"
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QDoubleSpinBox_style": {
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "border": "1px solid #6B6B6B",
+        "border_radius": "8px",
+        "padding": "4px 8px",
+        "font_size": "14px",
+        "min_width": "100px",
+        "selection-background-color": "#4A90E2",
+        "up_down_buttons": {
+            "background_color": "#4A4A4A",
+            "width": "20px", 
+            "height": "50%", 
+            "border": "none",
+            "hover": {
+                "background_color": "#5A5A5A"
+            },
+            "pressed": {
+                "background_color": "#686868"
+            },
+            "arrow_image": ":/icons/arrow.png"
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QDateEdit_style": {
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "border": "1px solid #6B6B6B",
+        "border_radius": "8px",
+        "padding": "4px 8px",
+        "font_size": "14px",
+        "focus": {
+            "border": "1px solid #FF3E3E"
+        },
+        "drop_down": {
+            "background_color": "#4A4A4A",
+            "border": "none",
+            "hover": {
+                "background_color": "#5A5A5A"
+            },
+            "pressed": {
+                "background_color": "#686868"
+            },
+            "arrow_image": ":/icons/arrow.png"
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QPlainTextEdit_style": {
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "border": "1px solid #6B6B6B",
+        "border_radius": "8px",
+        "padding": "8px 12px",
+        "font_size": "14px",
+        "focus": {
+            "border": "1px solid #FF3E3E"
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QTextEdit_style": {
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "border": "1px solid #6B6B6B",
+        "border_radius": "8px",
+        "padding": "8px 12px",
+        "font_size": "14px",
+        "focus": {
+            "border": "1px solid #FF3E3E"
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "MENU": {
+        "menu_background_gradient_start": "#1E1E1E",
+        "menu_background_gradient_end": "#2B2B2B",
+        "menu_text_color": "#FFFFFF",
+        "menu_hover_background_gradient_start": "#3C3C3C",
+        "menu_hover_background_gradient_end": "#4A4A4A",
+        "menu_active_background_gradient_start": "#FF3E3E",
+        "menu_active_background_gradient_end": "#CC3232",
+        "menu_item_height": "30px",
+        "menu_item_padding": "5px 10px"
+    },
+    "QMenu_style": {
+        "background_gradient": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 1,
+            "stops": {
+                "0": "#1E1E1E",
+                "1": "#2B2B2B"
+            }
+        },
+        "color": "#FFFFFF",
+        "border": "1px solid #5A5A5A",
+        "font_size": "14px",
+        "items": {
+            "padding": "5px 20px",
+            "background_color": "transparent"
+        },
+        "item_selected_background_gradient": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 1,
+            "stops": {
+                "0": "#3C3C3C",
+                "1": "#4A4A4A"
+            }
+        },
+        "separator": {
+            "height": "1px",
+            "background_color": "#5A5A5A",
+            "margin": "4px 0"
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "OPACITY": {
+        "disabled_opacity": "0.5",
+        "hover_opacity": "0.1",
+        "focus_opacity": "0.2",
+        "active_opacity": "0.3",
+        "scrim_opacity": "0.4"
+    },
+    "OVERLAY_AND_SHADOW": {
+        "shadow_color": "rgba(0, 0, 0, 0.7)",
+        "overlay_color": "rgba(0, 0, 0, 0.8)",
+        "scrim_color": "rgba(0, 0, 0, 0.4)"
+    },
+    "QDialog_style": {
+        "background_gradient": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 1,
+            "stops": {
+                "0": "#323232",
+                "1": "#3C3C3C"
+            }
+        },
+        "color": "#E0E0E0",
+        "border_radius": "8px",
+        "padding": "16px",
+        "box_shadow": "0px 4px 8px rgba(0, 0, 0, 0.3)"
+    },
+    "QProgressDialog_style": {
+        "background_color": "#2B2B2B",
+        "color": "#E0E0E0",
+        "border": "1px solid #6B6B6B",
+        "border_radius": "8px",
+        "padding": "16px",
+        "font_size": "14px",
+        "QLabel": {
+            "color": "#E0E0E0",
+            "font_size": "14px"
+        },
+        "QProgressBar": {
+            "background_color": "#3C3C3C",
+            "color": "#FFFFFF",
+            "border": "1px solid #6B6B6B",
+            "border_radius": "8px",
+            "text_align": "center",
+            "chunk": {
+                "background_color": "#FF3E3E",
+                "width": "20px",
+                "margin": "0.5px",
+                "border_radius": "7px"
+            }
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "PROGRESS_BAR": {
+        "progress_bar_background_color": "#3C3C3C",
+        "progress_bar_fill_color": "#FF3E3E"
+    },
+    "QProgressBar_style": {
+        "border": "1px solid #6B6B6B",
+        "border_radius": "8px",
+        "text_align": "center",
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "font_size": "14px",
+        "chunk": {
+            "background_color": "#FF3E3E",
+            "width": "20px",
+            "margin": "0.5px",
+            "border_radius": "7px"
+        }
+    },
+    "SCROLLBAR": {
+        "scrollbar_color": "#424242",
+        "scrollbar_hover_color": "#5A5A5A",
+        "scrollbar_active_color": "#686868",
+        "scrollbar_handle_color": "#FF3E3E"
+    },
+    "QSlider_style": {
+        "groove": {
+            "background_color": "#6B6B6B",
+            "height": "4px",
+            "border_radius": "2px"
+        },
+        "handle": {
+            "background_color": "#FF3E3E",
+            "border": "none",
+            "width": "14px",
+            "height": "14px",
+            "margin": "-5px 0",
+            "border_radius": "7px",
+            "hover": {
+                "background_color": "#FF6B6B"
+            },
+            "pressed": {
+                "background_color": "#CC3232"
+            }
+        }
+    },
+    "QScrollBar_style": {
+        "background": "#2B2B2B",
+        "width": "12px",
+        "height": "12px",
+        "groove": {
+            "background_color": "#3C3C3C",
+            "border": "none",
+            "border_radius": "6px",
+            "margin": "2px 0"
+        },
+        "handle": {
+            "background_color": "#FF3E3E",
+            "border_radius": "6px",
+            "min_height": "20px",
+            "hover": {
+                "background_color": "#FF6B6B"
+            },
+            "pressed": {
+                "background_color": "#CC3232"
+            }
+        },
+        "add_line": {
+            "background": "none",
+            "height": "0px",
+            "subcontrol_position": "bottom"
+        },
+        "sub_line": {
+            "background": "none",
+            "height": "0px",
+            "subcontrol_position": "top"
+        },
+        "up_arrow_image": ":/icons/up-arrow.png",
+        "down_arrow_image": ":/icons/down-arrow.png",
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "SHADOWS": {
+        "shadow_small": "0 2px 4px rgba(0, 0, 0, 0.2)",
+        "shadow_medium": "0 4px 6px rgba(0, 0, 0, 0.3)",
+        "shadow_large": "0 10px 15px rgba(0, 0, 0, 0.4)",
+        "card_box_shadow": "0 4px 8px rgba(0, 0, 0, 0.3)",
+        "dropdown_box_shadow": "0 6px 12px rgba(0, 0, 0, 0.3)",
+        "shadow_color_param": "rgba(0, 0, 0, 0.5)",
+        "shadow_blur_radius": "10px",
+        "shadow_x_offset": "0px",
+        "shadow_y_offset": "4px"
+    },
+    "SPACING_AND_LAYOUT": {
+        "spacing_unit": "8px",
+        "spacing_small": "4px",
+        "spacing_medium": "12px",
+        "spacing_large": "24px",
+        "border_radius": "8px",
+        "border_radius_large": "12px",
+        "border_width": "1px",
+        "icon_size_small": "16px",
+        "icon_size": "24px",
+        "icon_size_large": "32px",
+        "button_padding": "10px 20px",
+        "input_padding": "8px 12px",
+        "card_padding": "16px"
+    },
+    "STATUS": {
+        "error_color": "#FF4C4C",
+        "success_color": "#4CAF50",
+        "warning_color": "#FF9800",
+        "info_color": "#2196F3"
+    },
+    "TOOLTIP": {
+        "tooltip_background_gradient_start": "#424242",
+        "tooltip_background_gradient_end": "#525252",
+        "tooltip_text_color": "#FFFFFF"
+    },
+    "TYPOGRAPHY": {
+        "font_family": "Arial",
+        "mono_font_family": "'Consolas', 'Courier New', monospace",
+        "body_font_size": "14px",
+        "small_font_size": "12px",
+        "large_font_size": "16px",
+        "h1_font_size": "28px",
+        "h2_font_size": "24px",
+        "h3_font_size": "20px",
+        "h4_font_size": "18px",
+        "h5_font_size": "16px",
+        "h6_font_size": "14px",
+        "font_weight_light": "300",
+        "font_weight_regular": "400",
+        "font_weight_medium": "500",
+        "font_weight_bold": "700"
+    },
+    "UI_ELEMENT": {
+        "border_color": "#5A5A5A",
+        "divider_color": "#5A5A5A",
+        "hover_color": "#4A4A4A",
+        "active_color": "#FF3E3E",
+        "focus_color": "#FF3E3E",
+        "disabled_color": "#7D7D7D",
+        "disabled_text_color": "#A0A0A0",
+        "link_color": "#FFEB3B",
+        "visited_link_color": "#CC3232",
+        "highlight_color": "#FFC107",
+        "selection_color": "#4A90E2",
+        "tab_active_color": "#FF3E3E",
+        "tab_inactive_color": "#2D2D2D",
+        "tab_hover_color": "#4A4A4A"
+    },
+    "QTabWidget_style": {
+        "pane_border_top": "2px solid #5A5A5A",
+        "tab_bar_alignment": "left",
+        "tab": {
+            "background": "#2D2D2D",
+            "color": "#E0E0E0",
+            "padding": "10px",
+            "border": "1px solid #5A5A5A",
+            "border_bottom": "none",
+            "border_top_left_radius": "8px",
+            "border_top_right_radius": "8px",
+            "margin_right": "2px",
+            "selected": {
+                "background": "#4A4A4A",
+                "color": "#FFFFFF",
+                "border_bottom": "2px solid #FF3E3E"
+            },
+            "hover": {
+                "background": "#4A4A4A",
+                "color": "#FFFFFF"
+            }
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QTabBar_style": {
+        "tab": {
+            "background": "#2D2D2D",
+            "color": "#E0E0E0",
+            "padding": "10px",
+            "border": "1px solid #5A5A5A",
+            "border_bottom": "none",
+            "border_top_left_radius": "8px",
+            "border_top_right_radius": "8px",
+            "margin_right": "2px",
+            "selected": {
+                "background": "#4A4A4A",
+                "color": "#FFFFFF",
+                "border_bottom": "2px solid #FF3E3E"
+            },
+            "hover": {
+                "background": "#4A4A4A",
+                "color": "#FFFFFF"
+            }
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QTableView_style": {
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "gridline_color": "#5A5A5A",
+        "selection_background_color": "#4A90E2",
+        "selection_color": "#FFFFFF",
+        "font_size": "14px",
+        "border": "1px solid #6B6B6B",
+        "hover_background_color": "#4A4A4A",
+        "selected_background_color": "#4A90E2",
+        "selected_color": "#FFFFFF",
+        "alternate_background_color": "#2B2B2B",
+        "header": {
+            "background_color": "#2B2B2B",
+            "color": "#E0E0E0",
+            "font_size": "14px",
+            "font_weight": "bold",
+            "border": "1px solid #6B6B6B",
+            "padding": "4px",
+            "text_align": "left"
+        },
+        "corner_button": {
+            "background_color": "#2B2B2B",
+            "border": "1px solid #6B6B6B"
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QHeaderView_style": {
+        "background_color": "#2B2B2B",
+        "color": "#E0E0E0",
+        "padding": "4px",
+        "font_size": "14px",
+        "font_weight": "bold",
+        "border": "1px solid #6B6B6B",
+        "section": {
+            "background_color": "#2B2B2B",
+            "color": "#E0E0E0",
+            "padding": "4px",
+            "border": "1px solid #6B6B6B",
+            "font_size": "14px",
+            "font_weight": "bold",
+            "text_align": "left"
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QListView_style": {
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "selection_background_color": "#4A90E2",
+        "selection_color": "#FFFFFF",
+        "font_size": "14px",
+        "border": "1px solid #6B6B6B",
+        "hover_background_color": "#4A4A4A",
+        "selected_background_color": "#4A90E2",
+        "selected_color": "#FFFFFF",
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QTreeView_style": {
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "selection_background_color": "#4A90E2",
+        "selection_color": "#FFFFFF",
+        "font_size": "14px",
+        "border": "1px solid #6B6B6B",
+        "hover_background_color": "#4A4A4A",
+        "selected_background_color": "#4A90E2",
+        "selected_color": "#FFFFFF",
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QCalendarWidget_style": {
+        "background_color": "#2B2B2B",
+        "color": "#E0E0E0",
+        "gridline_color": "#5A5A5A",
+        "font_size": "14px",
+        "navigationbar_background_color": "#3C3C3C",
+        "navigationbar_button_background_color": "#4A4A4A",
+        "navigationbar_button_hover": {
+            "background_color": "#5A5A5A"
+        },
+        "navigationbar_button_pressed": {
+            "background_color": "#686868"
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QDial_style": {
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "border": "2px solid #6B6B6B",
+        "border_radius": "16px",
+        "handle": {
+            "background_color": "#FF3E3E",
+            "border_color": "#6B6B6B",
+            "hover": {
+                "background_color": "#FF6B6B"
+            },
+            "pressed": {
+                "background_color": "#CC3232"
+            }
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QFontComboBox_style": {
+        "background_color": "#3C3C3C",
+        "color": "#FFFFFF",
+        "border": "1px solid #6B6B6B",
+        "border_radius": "8px",
+        "padding": "4px 8px",
+        "font_size": "14px",
+        "drop_down": {
+            "background_color": "#4A4A4A",
+            "border": "none",
+            "hover": {
+                "background_color": "#5A5A5A"
+            },
+            "pressed": {
+                "background_color": "#686868"
+            },
+            "down_arrow_image": ":/icons/down-arrow.png"
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QGroupBox_style": {
+        "border": "1px solid #5A5A5A",
+        "border_radius": "8px",
+        "margin_top": "1em",
+        "padding_top": "1em",
+        "background_gradient": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 1,
+            "stops": {
+                "0": "#3C3C3C",
+                "1": "#4A4A4A"
+            }
+        },
+        "title": {
+            "color": "#E0E0E0",
+            "font_weight": "700",
+            "font_size": "14px",
+            "padding": "0 5px"
+        },
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "QComboBox_style": {
+        "background_gradient": {
+            "x1": 0,
+            "y1": 0,
+            "x2": 0,
+            "y2": 1,
+            "stops": {
+                "0": "#3C3C3C",
+                "1": "#4A4A4A"
+            }
+        },
+        "color": "#FFFFFF",
+        "border": "1px solid #6B6B6B",
+        "padding": "4px 8px",
+        "border_radius": "8px",
+        "drop_down": {
+            "background_color": "#4A4A4A",
+            "border": "none",
+            "hover": {
+                "background_color": "#5A5A5A"
+            },
+            "pressed": {
+                "background_color": "#686868"
+            }
+        },
+        "down_arrow_image": ":/icons/down-arrow.png",
+        "box_shadow": "0px 2px 4px rgba(0, 0, 0, 0.2)"
+    },
+    "Z_INDEX": {
+        "z_index_dropdown": 100,
+        "z_index_sticky": 200,
+        "z_index_fixed": 300,
+        "z_index_modal_backdrop": 400,
+        "z_index_modal": 500,
+        "z_index_popover": 600,
+        "z_index_tooltip": 700
+    },
+    "CODE_BLOCK_STYLE": {
+        "background_color": "#1e1e1e",
+        "text_color": "#d4d4d4",
+        "keyword_color": "#569CD6",
+        "string_color": "#CE9178",
+        "comment_color": "#6A9955",
+        "function_color": "#DCDCAA",
+        "number_color": "#B5CEA8",
+        "operator_color": "#D4D4D4",
+        "font_family": "Consolas, 'Courier New', monospace",
+        "font_size": "14px"
+    },
+    "QLabel#processingLabel": {
+        "background_color": "#FF3E3E",
+        "color": "#FFFFFF",
+        "border_radius": "15px",
+        "padding": "5px 10px",
+        "font_size": "14px"
+    }
+}

@@ -1,0 +1,8 @@
+# ./Config/setup/dev.txt
+python-dotenv
+black==24.10.0
+astor==0.8.1
+radon==6.0.1
+icecream==2.1.3
+watchdog
+colorama

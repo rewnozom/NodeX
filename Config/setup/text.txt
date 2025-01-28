@@ -1,0 +1,7 @@
+# ./Config/setup/text.txt
+markdown-it-py
+markdown==3.7
+docx==0.2.4
+pygments==2.18.0
+pyperclip==1.9.0
+toml==0.10.2

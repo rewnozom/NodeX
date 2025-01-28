@@ -1,0 +1,154 @@
+{
+    "AGENT_ENABLED": true,
+    "CURRENT_AGENT": "developer",
+    "AGENT_CONFIG": {
+        "current_workflow": "develop"
+    },
+    "AGENT_PROFILES": {
+        "chat": {
+            "name": "Standard Chat",
+            "description": "Basic chat interaction",
+            "enabled": true,
+            "temperature": 0.7
+        },
+        "developer": {
+            "name": "Developer Agent",
+            "description": "Multi-agent system for software development",
+            "enabled": true,
+            "config": {
+                "max_team_size": 3,
+                "process_type": "sequential",
+                "verbose": true,
+                "tools": {
+                    "code_analysis": true,
+                    "dependency_tracking": true,
+                    "impact_analysis": true,
+                    "documentation_generation": true
+                },
+                "workflows": {
+                    "troubleshoot": {
+                        "enabled": true,
+                        "name": "Problem Solving",
+                        "description": "Debug and fix issues",
+                        "steps": [
+                            "problem_analysis",
+                            "context_gathering",
+                            "error_diagnosis",
+                            "solution_design",
+                            "implementation",
+                            "verification"
+                        ],
+                        "roles": {
+                            "architect": "Analyze system impact and dependencies",
+                            "debugger": "Diagnose and fix issues",
+                            "tester": "Verify solutions"
+                        }
+                    },
+                    "improve": {
+                        "enabled": true,
+                        "name": "Code Enhancement",
+                        "description": "Improve code quality and structure",
+                        "steps": [
+                            "code_review",
+                            "quality_analysis",
+                            "pattern_recognition",
+                            "reusability_check",
+                            "improvement_planning",
+                            "refactoring",
+                            "validation"
+                        ],
+                        "roles": {
+                            "analyst": "Review and analyze code",
+                            "architect": "Design improvements",
+                            "developer": "Implement changes"
+                        }
+                    },
+                    "develop": {
+                        "enabled": true,
+                        "name": "New Development",
+                        "description": "Develop new features with dependency management",
+                        "steps": [
+                            "requirement_analysis",
+                            "dependency_check",
+                            "impact_analysis",
+                            "design_planning",
+                            "implementation",
+                            "integration",
+                            "dependency_updates",
+                            "testing"
+                        ],
+                        "roles": {
+                            "architect": "Design and plan",
+                            "developer": "Implement features",
+                            "integrator": "Handle dependencies"
+                        }
+                    },
+                    "document": {
+                        "enabled": true,
+                        "name": "Documentation",
+                        "description": "Create professional documentation",
+                        "steps": [
+                            "scope_analysis",
+                            "content_assessment",
+                            "structure_planning",
+                            "content_creation",
+                            "review_and_refine",
+                            "validation"
+                        ],
+                        "roles": {
+                            "analyst": "Analyze and plan documentation",
+                            "writer": "Create and refine content",
+                            "reviewer": "Review and validate"
+                        }
+                    }
+                },
+                "roles": {
+                    "architect": {
+                        "enabled": true,
+                        "temperature": 0.3,
+                        "description": "System design and architecture",
+                        "responsibilities": [
+                            "System design",
+                            "Dependency management",
+                            "Architecture decisions",
+                            "Impact analysis"
+                        ]
+                    },
+                    "developer": {
+                        "enabled": true,
+                        "temperature": 0.5,
+                        "description": "Implementation and problem-solving",
+                        "responsibilities": [
+                            "Code implementation",
+                            "Bug fixing",
+                            "Feature development",
+                            "Testing"
+                        ]
+                    },
+                    "analyst": {
+                        "enabled": true,
+                        "temperature": 0.4,
+                        "description": "Analysis and documentation",
+                        "responsibilities": [
+                            "Code analysis",
+                            "Pattern recognition",
+                            "Documentation",
+                            "Quality assessment"
+                        ]
+                    },
+                    "integrator": {
+                        "enabled": true,
+                        "temperature": 0.4,
+                        "description": "Integration and dependencies",
+                        "responsibilities": [
+                            "Dependency management",
+                            "System integration",
+                            "Compatibility checks",
+                            "Version control"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2 @@
+[console_scripts]
+dynamic-pyside6 = your_package.main:main

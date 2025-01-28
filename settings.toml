@@ -1,0 +1,24 @@
+[paths]
+base_dir = "C:\\Users\\Tobia\\Downloads\\Developments-main\\dynamic_v0_05_01"
+output_dir = "C:\\Users\\Tobia\\Downloads\\Developments-main\\dynamic_v0_05_01\\output"
+
+[files]
+ignored_extensions = [ ".exe", ".dll",]
+ignored_files = [ "file_to_ignore.txt",]
+
+[directories]
+ignored_directories = [ "dir_to_ignore",]
+
+[file_specific]
+use_file_specific = false
+specific_files = [ "",]
+
+[output]
+markdown_file_prefix = "Full_Project"
+csv_file_prefix = "Detailed_Project"
+
+[metrics]
+size_unit = "KB"
+
+[presets]
+123321 = [ "ai_agent//agents//agent_factory.py", "ai_agent//agents//base_agent.py", "ai_agent//agents//chat_agent.py", "ai_agent//agents//crew_agent.py", "ai_agent//agents//developer_agent.py", "ai_agent//chat_manager//chat_manager.py", "ai_agent//config//agent_settings.json", "ai_agent//config//ai_config.py", "ai_agent//config//prompt_manager.py", "ai_agent//models//llm_models.py", "ai_agent//services//ai_service.py", "ai_agent//services//data_service.py", "ai_agent//threads//worker_thread.py",]

@@ -219,7 +219,8 @@ We welcome contributions! Feel free to submit pull requests or open issues.
 ---
 
 # 🔮 **Coming Soon: NodeX Development Plan & Checklist**
-#  **NodeX -(Grid-Node) Workflow Management interface - Is being Developed local Until its ready for the full beta version**: Here's a sneak peek at what's in development:
+---
+##  **NodeX -(Grid-Node) Workflow Management interface - Is being Developed local Until its ready for the full beta version**: Here's a sneak peek at what's in development:
 
 ## ✅ **Implemented Base Nodes**
 - **Input_Node**  
